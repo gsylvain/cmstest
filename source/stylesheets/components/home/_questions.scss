@@ -55,6 +55,27 @@
     flex: 1;
     background: $white;
 
+    @include media-breakpoint-up(md) {
+      transform: perspective(900px) rotateY(-15deg);
+      transition: all 1s $easing;
+
+      &:hover {
+        transform: rotateY(-5deg);
+      }
+
+      .questions--inverted & {
+        transform: perspective(900px) rotateY(15deg);
+
+        &:hover {
+          transform: rotateY(5deg);
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: 360px;
+    }
+
     &__illustration {
       img {
         width: 100%;
