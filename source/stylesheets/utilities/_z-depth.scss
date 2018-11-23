@@ -1,0 +1,27 @@
+.z-depth-0 {
+  box-shadow: none;
+}
+
+.z-depth-1 {
+  box-shadow: $box-shadow-xs;
+}
+
+.z-depth-2 {
+  box-shadow: $box-shadow-s;
+}
+
+.z-depth-3 {
+  box-shadow: $box-shadow-m;
+}
+
+.z-depth-4 {
+  box-shadow: $box-shadow-l;
+}
+
+.z-depth-5 {
+  box-shadow: $box-shadow-xl;
+}
+
+.z-depth-6 {
+  box-shadow: $box-shadow-xxl;
+}

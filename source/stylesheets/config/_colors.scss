@@ -1,0 +1,48 @@
+
+// Base colors
+$blue: #9357fa;
+$blue-dark: #272a7f;
+$indigo: #9357fa;
+$purple: #9d62ae;
+$red: #cd422c;
+$orange: #e4833e;
+$yellow: #f3e03d;
+$green: #38cd9b;
+$teal: #51c0b8;
+$cyan: #6bbbc7;
+$gray-100: #f8f8f8;
+$gray-200: #edf0f2;
+$gray-300: #d3d6db;
+$gray-400: #c5c9cf;
+$gray-500: #a9aeb8;
+$gray-600: #737A81;
+$gray-700: #485965;
+$gray-800: #323a4a;
+$gray-900: #1d222c;
+$black: $gray-800;
+$white: #fff;
+
+// Color uses
+$brand-blue: $blue;
+$brand-orange: $orange;
+$primary: $blue-dark;
+$secondary: $blue-dark;
+$body-bg: $gray-100;
+$teaser-bg: $blue;
+$text-color: $black;
+$link-color: $orange;
+$hover-link-color: lighten($link-color, 5%);
+$active-link-color: darken($link-color, 10%);
+$text-muted: $gray-600;
+$shadow-color: transparentize($black, .75);
+$glow-color: transparentize($gray-100, .75);
+$page-header-color: $teaser-bg;
+$separator-color: $gray-200;
+$transparent-separator-color: transparentize($white, .75);
+$error-color: $red;
+$success-color: $green;
+$box-border-color: $gray-300;
+$zebra-stripe-color: transparentize($blue, .9625);
+$disabled-background-color: lighten($text-muted, 15%);
+$disabled-color: $text-muted;
+$yiq-text-dark: $black;

@@ -1,0 +1,17 @@
+.integrations {
+  @extend %section;
+
+  &__logos {
+    .col {
+      text-align: center;
+    }
+
+    img {
+      width: 80%;
+    }
+  }
+
+  &__cta {
+    padding-top: $spacing-l;
+  }
+}

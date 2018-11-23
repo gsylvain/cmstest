@@ -1,0 +1,14 @@
+.hero {
+  background: transparent url('/images/hero-bg.png') bottom left repeat-x;
+  background-size: 100% auto;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 80vh;
+  }
+
+  &__illustration {
+    img {
+      max-width: 100%;
+    }
+  }
+}

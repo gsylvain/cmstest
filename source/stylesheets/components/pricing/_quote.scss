@@ -1,0 +1,17 @@
+.quote {
+  $quote-padding: 60px;
+
+  @extend %section;
+
+  &__content {
+    font-size: $font-size-xxl;
+    padding-left: $quote-padding;
+    padding-top: $quote-padding * 0.5;
+    background: url('/images/bg-quote.svg') top left no-repeat;
+  }
+
+  &__author {
+    padding-left: $quote-padding;
+    padding-top: $spacing-l;
+  }
+}

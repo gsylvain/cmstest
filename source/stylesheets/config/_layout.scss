@@ -1,0 +1,19 @@
+// Layout settings
+$border-radius: .25em;
+
+// Spacing
+$spacing: 1rem;
+$spacing-m: $spacing;
+$spacing-xxs: $spacing-m / 8;
+$spacing-xs: $spacing-m / 4;
+$spacing-s: $spacing-m / 2;
+$spacing-l: $spacing-m * 1.5;
+$spacing-xl: $spacing-m * 2;
+$spacing-xxl: $spacing-m * 2.5;
+
+// Z-layer
+$z-index: 1;
+$z-index-high: 10;
+$z-index-higher: 100;
+$z-index-highest: 1000;
+$z-index-top: 9999;

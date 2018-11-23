@@ -1,0 +1,29 @@
+.btn {
+  font-weight: 700;
+  border-radius: 0;
+
+  &-primary {
+    color: $white;
+    background-color: $blue-dark;
+    background: linear-gradient(45deg, #9357fa, #272a7f);
+    border-color: transparent;
+    box-shadow: $box-shadow-l;
+    transition: all .25s $easing;
+
+    &:hover {
+      top: -4px;
+      transform: scale(1.05);
+    }
+  }
+
+  &-outline {
+    background: transparent;
+    border: 1px solid $gray-300;
+    color: $blue-dark;
+
+    &:hover {
+      background: $gray-300;
+      color: $blue;
+    }
+  }
+}

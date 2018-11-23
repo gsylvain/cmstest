@@ -1,0 +1,34 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Import other vendor CSS
+@import '~animate.css/animate.css';
+
+// Bootstrap variable overrides
+@import 'config/colors';
+@import 'config/layout';
+@import 'config/shadows';
+@import 'config/typography';
+@import 'config/animations';
+
+// Utility CSS
+@import 'utilities/z-depth';
+
+// Custom component styling
+@import 'components/buttons';
+@import 'components/section';
+@import 'components/navbar';
+@import 'components/box';
+@import 'components/cta';
+@import 'components/footer';
+
+// Home page components
+@import 'components/home/hero';
+@import 'components/home/questions';
+@import 'components/home/integrations';
+
+// Pricing page components
+@import 'components/pricing/hero';
+@import 'components/pricing/pricing';
+@import 'components/pricing/features';
+@import 'components/pricing/quote';

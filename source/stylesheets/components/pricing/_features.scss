@@ -1,0 +1,25 @@
+.features {
+  @extend %section;
+
+  &__list {
+    margin: 0;
+    padding: $spacing-l 0 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+
+    @include media-breakpoint-up(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include media-breakpoint-up(lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__item {
+      padding-left: 20px;
+      background: url('/images/icons/checkmark.svg') left 8px no-repeat;
+    }
+  }
+}

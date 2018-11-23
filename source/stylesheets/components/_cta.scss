@@ -1,0 +1,15 @@
+.cta {
+  @extend %section;
+  padding-bottom: $spacing-xxl * 3;
+
+  background: url('/images/bg-blobs.svg') center left no-repeat;
+  background-size: auto 100%;
+
+  &__copy {
+    font-size: $font-size-l;
+  }
+
+  &__action {
+    padding-top: $spacing-xl;
+  }
+}

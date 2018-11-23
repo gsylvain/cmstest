@@ -1,0 +1,25 @@
+// Fonts
+$font-family-sans-serif: 'GT America', GTAmerica, Helvetica, sans-serif;
+$font-family-serif: 'PT Sans', serif;
+$font-family-monospace: 'Input Mono', Menlo, Monaco, monospace;
+$font-family-base: $font-family-sans-serif;
+$font-weight-light: 300;
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+
+// Font sizes
+$font-size-base: 1rem;
+$font-size-m: $font-size-base;
+$font-size-xxs: .7 * $font-size-m;
+$font-size-xs: .8 * $font-size-m;
+$font-size-sm: .875 * $font-size-m;
+$font-size-s: $font-size-sm;
+$font-size-l: 1.25 * $font-size-m;
+$font-size-xl: 2 * $font-size-m;
+$font-size-xxl: 2.5 * $font-size-m;
+
+$line-height-1: 1;
+
+html {
+  font-size: 16px;
+}

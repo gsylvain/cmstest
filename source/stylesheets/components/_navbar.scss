@@ -1,0 +1,21 @@
+.navbar {
+  &-toggler {
+    font-size: 1rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.nav {
+  &-item {
+    text-align: center;
+    padding-bottom: $spacing;
+    border-bottom: 1px solid $separator-color;
+
+    @include media-breakpoint-up(lg) {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+  }
+}

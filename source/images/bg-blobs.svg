@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="294" viewBox="0 0 1300 294">
+  <defs>
+    <linearGradient id="bg-blobs-a" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2F1447"/>
+      <stop offset="100%" stop-color="#202266"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#bg-blobs-a)" fill-rule="evenodd" transform="translate(-48)">
+    <circle cx="1319.5" cy="131" r="28.5" fill-opacity=".1"/>
+    <path fill-opacity=".08" d="M8.5,73.8144667 C8.5,129.709635 98.271972,153.669944 98.271972,206.27998 C98.271972,258.890017 148.629984,302.5 183.094797,302.5 C223.405188,302.5 239.212574,259.276406 250.488493,208.665279 C261.764411,158.054153 276.092391,98.6855987 253.68163,69.3318205 C208.891293,10.6651114 8.5,17.9192986 8.5,73.8144667 Z" transform="matrix(0 1 1 0 -28.5 28.5)"/>
+    <circle cx="311" cy="35" r="35" fill-opacity=".08"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<div class="row questions" id="monitoringQuestions">
+  <div class="col col-12 col-md-6 col-lg-5 questions__questions">
+    <h3>Ongoing Profit Monitoring</h3>
+    <p>Everything you need to monitor your business on a regular basis in one clean dashboard.</p>
+
+    <ul class="questions__list">
+      <li>
+        <a
+           class="wow fadeInLeft questions__question"
+           data-wow-duration=".5s"
+            @click="selected = 1"
+            :class="{ 'questions__question--active': selected === 1 }">
+          <span class="d-inline-block mr-2 questions__question__icon">
+            <img src="/images/icons/profit.svg" alt="">
+          </span>
+          How much profit did we make today?
+        </a>
+      </li>
+      <li>
+        <a
+           class="wow fadeInLeft questions__question"
+           data-wow-duration=".5s"
+           data-wow-delay=".25s"
+           @click="selected = 2"
+           :class="{ 'questions__question--active': selected === 2 }">
+          <span class="d-inline-block mr-2 questions__question__icon">
+            <img src="/images/icons/badge.svg" alt="" class="d-inline-block mr-2">
+          </span>
+          Which orders made the most profit?
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="col col-12 col-md-6 col-lg-7 wow fadeInRight questions__answers">
+    <div class="questions__box z-depth-6" v-if="selected === 1">
+      Answer 1
+    </div>
+    <div class="questions__box z-depth-6" v-if="selected === 2">
+      Answer 2
+    </div>    
+  </div>
+</div>
