@@ -5,6 +5,7 @@
 
   &__content {
     font-size: $font-size-xxl;
+    letter-spacing: -.01em;
     padding-left: $quote-padding;
     padding-top: $quote-padding * .5;
     background: url('/images/bg-quote.svg') top left no-repeat;

@@ -1,9 +1,19 @@
 .hero {
-  background: transparent url('/images/hero-bg.png') bottom left repeat-x;
+  background: transparent url('/images/bg-hero.png') bottom left repeat-x;
   background-size: 100% auto;
 
   @include media-breakpoint-up(lg) {
     min-height: 80vh;
+  }
+
+  h1 {
+    font-weight: $font-weight-bold;
+    letter-spacing: -.05em;
+    color: $blue-dark;
+  }
+
+  h3 {
+    font-weight: $font-weight-normal;
   }
 
   &__illustration {

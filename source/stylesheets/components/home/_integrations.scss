@@ -2,12 +2,19 @@
   @extend %section;
 
   &__logos {
+    padding-top: $spacing-l;
+
     .col {
       text-align: center;
+      padding-bottom: $spacing-l;
     }
 
     img {
-      width: 80%;
+      width: 50%;
+
+      @include media-breakpoint-up(lg) {
+        width: 80%;
+      }
     }
   }
 

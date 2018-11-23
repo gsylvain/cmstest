@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="424" viewBox="0 0 1440 424">
+  <defs>
+    <linearGradient id="bg-hero-a" x1="50%" x2="50%" y1="100%" y2="50%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#EEEEF3"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg-hero-a)" fill-rule="evenodd" d="M-0.107771922,43.047619 C247.676684,43.047619 422.997644,279.900621 716.5,279.900621 C1010.00236,279.900621 1205.59638,24 1439.86546,24 C1596.04485,24 1596.04485,157.333333 1439.86546,424 L-0.107771922,424 C-165.297409,170.031746 -165.297409,43.047619 -0.107771922,43.047619 Z"/>
+</svg>

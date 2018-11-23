@@ -1,9 +1,3 @@
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-// Import other vendor CSS
-@import '~animate.css/animate.css';
-
 // Bootstrap variable overrides
 @import 'config/colors';
 @import 'config/layout';
@@ -11,7 +5,14 @@
 @import 'config/typography';
 @import 'config/animations';
 
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Import other vendor CSS
+@import '~animate.css/animate.css';
+
 // Utility CSS
+@import 'utilities/fonts';
 @import 'utilities/z-depth';
 
 // Custom component styling

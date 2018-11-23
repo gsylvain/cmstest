@@ -4,7 +4,7 @@ $font-family-serif: 'PT Sans', serif;
 $font-family-monospace: 'Input Mono', Menlo, Monaco, monospace;
 $font-family-base: $font-family-sans-serif;
 $font-weight-light: 300;
-$font-weight-normal: 500;
+$font-weight-normal: 300;
 $font-weight-bold: 700;
 
 // Font sizes
@@ -19,7 +19,3 @@ $font-size-xl: 2 * $font-size-m;
 $font-size-xxl: 2.5 * $font-size-m;
 
 $line-height-1: 1;
-
-html {
-  font-size: 16px;
-}
