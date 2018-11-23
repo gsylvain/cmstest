@@ -15,8 +15,7 @@ module.exports = {
     rules: [
       JSLoader,
       ESLintLoader,
-      CSSLoader,
-      WOWLoader
+      CSSLoader
     ]
   },
   output: {
