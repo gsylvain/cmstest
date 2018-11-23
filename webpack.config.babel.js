@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 import { CSSLoader, JSLoader, ESLintLoader } from './config/webpack.loaders';
 import { StyleLintPlugin, MiniCssExtractPlugin } from './config/webpack.plugins';
-import { UglifyJsPlugin, OptimizeCssAssetsPlugin } from './config/webpack.minimizers';
+import { OptimizeCssAssetsPlugin } from './config/webpack.minimizers';
 
 module.exports = {
   entry: {
@@ -24,7 +24,6 @@ module.exports = {
   },
   optimization: {
     minimizer: [
-      UglifyJsPlugin,
       OptimizeCssAssetsPlugin
     ]
   }
