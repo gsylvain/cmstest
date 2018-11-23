@@ -26,6 +26,7 @@
     "stylelint-selector-bem-pattern": "^2.0.0",
     "stylelint-webpack-plugin": "^0.10.5",
     "uglifyjs-webpack-plugin": "^2.0.1",
+    "vue-slider-component": "^2.8.2",
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2",
     "wow.js": "^1.2.2"
