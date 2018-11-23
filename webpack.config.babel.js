@@ -1,5 +1,5 @@
 import webpack from 'webpack';
-import { WOWLoader, CSSLoader, JSLoader, ESLintLoader } from './config/webpack.loaders';
+import { CSSLoader, JSLoader, ESLintLoader } from './config/webpack.loaders';
 import { StyleLintPlugin, MiniCssExtractPlugin } from './config/webpack.plugins';
 import { UglifyJsPlugin, OptimizeCssAssetsPlugin } from './config/webpack.minimizers';
 
