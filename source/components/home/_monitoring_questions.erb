@@ -3,13 +3,11 @@
     <h4>Ongoing Profit Monitoring</h4>
     <p>Everything you need to monitor your business on a regular basis in one clean dashboard.</p>
 
-    <ul class="questions__list">
+    <ul class="questions__list js-questions-navigation">
       <li>
         <a
-           class="wow fadeInLeft questions__question"
-           data-wow-duration=".5s"
-            @click="selected = 1"
-            :class="{ 'questions__question--active': selected === 1 }">
+           class="wow fadeInLeft questions__question js-question"
+           data-question-show="0">
           <span class="d-inline-block mr-2 questions__question__icon">
             <img src="/images/icons/profit.svg" alt="">
           </span>
@@ -18,11 +16,10 @@
       </li>
       <li>
         <a
-           class="wow fadeInLeft questions__question"
+           class="wow fadeInLeft questions__question js-question"
            data-wow-duration=".5s"
            data-wow-delay=".25s"
-           @click="selected = 2"
-           :class="{ 'questions__question--active': selected === 2 }">
+           data-question-show="1">
           <span class="d-inline-block mr-2 questions__question__icon">
             <img src="/images/icons/badge.svg" alt="" class="d-inline-block mr-2">
           </span>
@@ -31,8 +28,8 @@
       </li>
     </ul>
   </div>
-  <div class="col col-12 col-md-6 col-lg-7 wow fadeInRight questions__answers">
-    <div class="questions__box z-depth-6" v-if="selected === 1">
+  <div class="col col-12 col-md-6 col-lg-7 wow fadeInRight questions__answers js-answers">
+    <div class="questions__box z-depth-6 js-answer" data-answer="0">
       <div class="questions__box__illustration">
         <img src="/images/home/illustration-dashboard.png" alt="">
       </div>
@@ -44,7 +41,7 @@
         </p>
       </div>
     </div>
-    <div class="questions__box z-depth-6" v-if="selected === 2">
+    <div class="questions__box z-depth-6 js-answer" data-answer="1">
       Answer 2
     </div>    
   </div>
