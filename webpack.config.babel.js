@@ -1,6 +1,6 @@
 import webpack from 'webpack';
-import { CSSLoader, JSLoader, ESLintLoader } from './config/webpack.loaders';
-import { StyleLintPlugin, MiniCssExtractPlugin } from './config/webpack.plugins';
+import { AssetLoader, CSSLoader, JSLoader, ESLintLoader } from './config/webpack.loaders';
+import { ProvidePlugin, StyleLintPlugin, MiniCssExtractPlugin } from './config/webpack.plugins';
 import { OptimizeCssAssetsPlugin } from './config/webpack.minimizers';
 
 module.exports = {
@@ -9,13 +9,15 @@ module.exports = {
   },
   plugins: [
     StyleLintPlugin,
-    MiniCssExtractPlugin
+    MiniCssExtractPlugin,
+    ProvidePlugin
   ],
   module: {
     rules: [
       JSLoader,
       ESLintLoader,
-      CSSLoader
+      CSSLoader,
+      AssetLoader
     ]
   },
   output: {

@@ -1,4 +1,49 @@
 .footer {
   padding: $spacing-xl 0;
   border-top: 1px solid $separator-color;
+
+  &__section {
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+
+    h5 {
+      font-weight: 700;
+      letter-spacing: -.05em;
+    }
+  }
+
+  &__copyright {
+    padding: $spacing-l 0;
+    text-align: center;
+
+    @include media-breakpoint-up(lg) {
+      padding: 0;
+      text-align: left;
+    }
+  }
+
+  &__links,
+  &__contact {
+    a {
+      color: $text-muted;
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+
+  &__links {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  &__contact {
+    p {
+      margin: 0;
+    }
+  }
 }
