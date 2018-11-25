@@ -42,10 +42,7 @@ window.addEventListener('load', function () {
         '$1M—$1.5M USD / month': [449],
         '$1.5M-$2M USD / month': [499],
         '$2M+ USD / month': [999]
-      },
-      format: wNumb({
-        decimals: 0
-      }),
+      }
     });
   }
 });
