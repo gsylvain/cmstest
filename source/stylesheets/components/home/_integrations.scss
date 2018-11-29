@@ -3,22 +3,44 @@
 
   &__logos {
     padding-top: $spacing-l;
+    height: 250px;
+    position: relative;
 
-    .col {
-      text-align: center;
-      padding-bottom: $spacing-l;
+    @include media-breakpoint-up(lg) {
+      height: 325px;
     }
 
     img {
-      width: 50%;
-
-      @include media-breakpoint-up(lg) {
-        width: 80%;
-      }
+      width: 80%;
     }
   }
 
   &__cta {
     padding-top: $spacing-l;
+  }
+}
+
+.integration {
+  width: 12.5%;
+  border-radius: 50%;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, .1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: $white;
+
+  &__icon {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:after {
+      height: 0;
+      content: '';
+      padding-bottom: 100%;
+    }
   }
 }
