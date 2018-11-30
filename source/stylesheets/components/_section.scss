@@ -1,7 +1,10 @@
+$section-spacing: $spacing-xxl * 4;
+$section-heading-spacing: $spacing-xxl * 2;
+
 %section {
-  padding-top: $spacing-xxl * 3;
+  padding-top: $section-spacing;
 }
 
 %section-heading {
-  padding-bottom: $spacing-xxl;
+  padding-bottom: $section-heading-spacing;
 }

@@ -1,0 +1,23 @@
+.why {
+  &__header {
+    @extend %section-heading;
+  }
+
+  &__step {
+    padding: $spacing $spacing $spacing $spacing-xxl;
+    position: relative;
+
+    &__number {
+      position: absolute;
+      top: -$spacing-l;
+      left: 0;
+      color: $blue-light;
+      font-size: 128px;
+      line-height: 1;
+    }
+
+    &__content {
+      position: relative;
+    }
+  }
+}
