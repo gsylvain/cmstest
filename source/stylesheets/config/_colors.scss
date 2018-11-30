@@ -34,7 +34,7 @@ $link-color: $orange;
 $hover-link-color: lighten($link-color, 5%);
 $active-link-color: darken($link-color, 10%);
 $text-muted: $gray-600;
-$shadow-color: transparentize($black, .75);
+$shadow-color: transparentize($black, .875);
 $glow-color: transparentize($gray-100, .75);
 $page-header-color: $teaser-bg;
 $separator-color: $gray-200;
