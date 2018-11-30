@@ -1,0 +1,28 @@
+.signup-steps {
+  @extend %section;
+
+  &__heading {
+    @extend %section-heading;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .col {
+    display: flex;
+  }
+}
+
+.signup-step {
+  background: $white;
+  padding: $spacing-l;
+  box-shadow: $box-shadow-xxl;
+
+  &__illustration {
+    padding-bottom: $spacing-l;
+    text-align: center;
+    
+    img {
+      max-width: 80%;
+    }
+  }
+}
