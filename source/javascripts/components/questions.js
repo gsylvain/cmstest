@@ -23,30 +23,27 @@ export default class Questions {
   }
 
   initLinkHandlers() {
-    for (let i = 0 ; i < this.navLinks.length; i++) {
-      const link = this.navLinks[i];
+    const links = Array.from(this.navLinks);
+
+    links.map((link) => {
       const linkId = parseInt(link.dataset.questionShow);
 
       link.addEventListener('click', () => {
         this.showAnswer(linkId);
       });
-    }
+    });
   }
 
   showAnswer(id) {
-    for (let i = 0; i < this.answers.length; i++) {
-      const answer = this.answers[i];
-      const elementId = parseInt(answer.dataset.answer);
+    const answers = Array.from(this.answers);
+    const links = Array.from(this.navLinks);
 
-      if (elementId !== id) {
-        answer.style.display = 'none';
-      } else {
-        answer.style.display = 'block';
-      }
-    }
-  
-    for (let i = 0 ; i < this.navLinks.length; i++) {
-      const link = this.navLinks[i];
+    answers.forEach((answer) => {
+      const elementId = parseInt(answer.dataset.answer);
+      answer.style.display = (elementId !== id) ? 'none' : 'block';
+    });
+
+    links.forEach((link) => {
       const elementId = parseInt(link.dataset.questionShow);
 
       if (elementId === id) {
@@ -54,7 +51,7 @@ export default class Questions {
       } else {
         link.classList.remove('questions__question--active')
       }
-    }
+    });
 
     this.visible = id;
   }

@@ -2,4 +2,108 @@
   &__header {
     padding: $spacing-l 0;
   }
+
+  &__calculator {
+    padding-top: $spacing-xxl;
+
+    .noUi-base,
+    .noUi-connects,
+    .noUi-target {
+      border-radius: 8px;
+      border: 0;
+      box-shadow: none;
+    }
+
+    .noUi-base {
+      background: $gray-200;
+    }
+
+    .noUi-connect {
+      background: $blue-dark;
+    }
+
+    .noUi-tooltip {
+      bottom: 200%;
+      background: $black;
+      color: $white;
+      padding: $spacing-s;
+      font-size: $font-size-sm;
+      border: 0;
+    }
+
+    .noUi-handle {
+      width: 32px;
+      height: 32px;
+      border-radius: 16px;
+      border: 6px solid $blue-dark;
+      background: $white;
+
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  &__values {
+    padding-top: $spacing-xxl;
+    display: flex;
+
+    &__label,
+    &__price {
+      flex: 1;
+      font-size: $font-size-l;
+    }
+
+    &__label {
+      display: flex;
+      align-items: center;
+      color: $text-muted;
+    }
+
+    &__price {
+      text-align: right;
+
+      &__currency,
+      &__period {
+        color: $text-muted;
+      }
+
+      &__currency {
+        vertical-align: super;
+        position: relative;
+        top: -8px;
+      }
+
+      &__number {
+        font-size: $font-size-xl;
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+
+  &__limited {
+    visibility: hidden;
+    margin-top: $spacing-l;
+  }
+
+  &__button {
+    padding-top: $spacing-l;
+    margin-top: $spacing-l;
+    border-top: 1px solid $separator-color;
+
+    .btn {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &__contact {
+    &__label {
+      text-align: center; 
+      padding: $spacing-l 0;
+      font-size: $font-size-l;
+      color: $text-muted;
+    }
+  }
 }

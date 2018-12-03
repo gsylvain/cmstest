@@ -16,6 +16,6 @@ export const MiniCssExtractPlugin = new _MiniCssExtractPlugin({
 });
 
 export const ProvidePlugin = new webpack.ProvidePlugin({
-  $: 'jquery',
-  jQuery: 'jquery'
+  'window.$': 'jquery',
+  'window.jQuery': 'jquery'
 });
