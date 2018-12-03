@@ -105,6 +105,10 @@
       padding: $spacing-l 0;
       font-size: $font-size-l;
       color: $text-muted;
+      min-height: 110px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
