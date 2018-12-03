@@ -37,16 +37,16 @@ export default class PricingSlider {
 
   initSettings() {
     this.prices = {
-      0: 0,
-      10: 30,
-      20: 70,
-      30: 120,
-      40: 220,
-      50: 320,
-      60: 370,
-      70: 420,
-      80: 470,
-      90: 999
+      0: 29,
+      10: 59,
+      20: 99,
+      30: 149,
+      40: 249,
+      50: 349,
+      60: 399,
+      70: 449,
+      80: 499,
+      90: false
     };
 
     this.labels = {
@@ -86,14 +86,16 @@ export default class PricingSlider {
     if (value === 0) {
       this.toggleLimited(true);
       this.toggleContact(false);
-      this.elements.price.innerHTML = this.prices[value];
-    } else if (value === 90) {
-      this.toggleContact(true);
-      this.toggleLimited(false);
     } else {
       this.toggleLimited(false);
       this.toggleContact(false);
-      this.elements.price.innerHTML = this.prices[value] + 29;
+    }
+
+    if (this.prices[value] === false) {
+      this.toggleContact(true);
+      this.toggleLimited(false);
+    } else {
+      this.elements.price.innerHTML = this.prices[value];
     }
 
     this.replaceTooltip();
