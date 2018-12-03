@@ -24,11 +24,12 @@
 
     .noUi-tooltip {
       bottom: 200%;
-      background: $black;
+      background: $blue-dark;
       color: $white;
       padding: $spacing-s;
       font-size: $font-size-sm;
       border: 0;
+      border-radius: 10px;
     }
 
     .noUi-handle {
