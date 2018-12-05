@@ -1,23 +1,42 @@
 .why {
+  $why-icon-size: 64px;
+
   &__header {
     @extend %section-heading;
   }
 
+  &__steps {
+    padding: $spacing-l;
+    background: $white;
+    box-shadow: $box-shadow-xxl;
+  }
+
   &__step {
-    padding: $spacing $spacing $spacing $spacing-xxl;
+    padding: $spacing;
     position: relative;
+    transition: all .25s $easing;
 
     &__number {
       position: absolute;
-      top: -$spacing-l;
-      left: 0;
+      top: $spacing-l;
+      left: 5;
       color: $blue-light;
       font-size: 128px;
-      line-height: 1;
+      line-height: 0;
     }
 
     &__content {
       position: relative;
+
+      &__icon {
+        width: $why-icon-size;
+        flex: 1 0 $why-icon-size;
+        text-align: center;
+      }
     }
+  }
+
+  &__hr {
+    border-top: 4px solid $separator-color;
   }
 }

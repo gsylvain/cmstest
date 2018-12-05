@@ -13,12 +13,13 @@ window.addEventListener('load', function () {
   const monitoringQuestions = document.querySelector('#monitoringQuestions');
   const performanceQuestions = document.querySelector('#performanceQuestions');
   const pricingSlider = document.querySelector('#pricingCalculator');
-
-  new Questions(monitoringQuestions);
-  new Questions(performanceQuestions);
+  const homeHero = document.querySelector('#hero');
+  const lgMinWidth = 960;
 
   new WOW().init();
 
+  new Questions(monitoringQuestions);
+  new Questions(performanceQuestions);
   new PricingSlider(pricingSlider);
 
   const quotes = new Siema({
@@ -27,5 +28,22 @@ window.addEventListener('load', function () {
     loop: true
   });
 
-  setInterval(() => quotes.next(), 2000);
-});
+  setInterval(() => quotes.next(), 5000);
+
+    // Fix for home hero illustration
+  const resizeHero = () => {
+    const illustration = homeHero.querySelector('.js-hero-illustration');
+    const text = homeHero.querySelector('.js-hero-text');
+
+    if (window.matchMedia(`(min-width: ${lgMinWidth}px)`).matches) {
+      text.style.height = `${illustration.offsetHeight}px`;
+    } else {
+      text.style.height = 'auto';
+    }
+  }
+
+  if (homeHero) {
+    resizeHero();
+    window.addEventListener('resize', () => { resizeHero(); }, false);
+  }
+}, false);

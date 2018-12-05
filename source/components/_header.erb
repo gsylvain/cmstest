@@ -14,13 +14,20 @@
           <%= link_to 'Home', '/', class: 'nav-link' %>
         </li>
         <li class="nav-item">
-          <%= link_to 'Pricing', '/pricing', class: 'nav-link' %>
+          <%= link_to 'Pricing', '/pricing.html', class: 'nav-link' %>
         </li>
-        <li class="nav-item">
+         <li class="nav-item">
+          <%= link_to 'Integrations', '/integrations.html', class: 'nav-link' %>
+        </li>
+          <li class="nav-item">
           <%= link_to 'Profit Guide', '/profit-guide', class: 'nav-link' %>
         </li>
-        <li class="nav-item ml-lg-auto">
+          <li class="nav-item">
+          <%= link_to 'Login', 'https://app.ordermetrics.io/login', class: 'nav-link' %>
+        </li>
+        <li class="nav-item ml-lg-auto"><form action='https://app.ordermetrics.io/begin'>
           <button class="btn btn-outline" type="submit">Sign up</button>
+        </form>
         </li>
       </ul>
     </div>

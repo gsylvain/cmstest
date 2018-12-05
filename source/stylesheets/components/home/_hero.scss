@@ -1,9 +1,14 @@
 .hero {
   background: transparent url('/images/bg-hero.png') bottom left repeat-x;
   background-size: 100% auto;
+  position: relative;
 
   @include media-breakpoint-up(lg) {
     min-height: 80vh;
+  }
+
+  &--home {
+    padding-bottom: $spacing;
   }
 
   h1 {
@@ -16,7 +21,18 @@
     font-weight: $font-weight-normal;
   }
 
+  &__text {
+    visibility: hidden;
+  }
+
   &__illustration {
+    @include media-breakpoint-up(lg) {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 50%;
+    }
+
     img {
       max-width: 100%;
     }
