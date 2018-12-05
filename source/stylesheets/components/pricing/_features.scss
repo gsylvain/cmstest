@@ -1,5 +1,6 @@
 .features {
   @extend %section;
+  padding-top: $spacing-xxl * 3;
 
   &__list {
     margin: 0;
