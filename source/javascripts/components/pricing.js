@@ -7,22 +7,29 @@ export default class PricingSlider {
       return false;
     }
 
-    this.initSlider(element);
-    this.initSettings();
+    this.initLocalization('b9e14cb94ee69f0a').then((data) => {
+      this.currency = data;
 
-    this.slider = noUiSlider.create(this.elements.slider, {
-      start: this.settings.start,
-      step: this.settings.step,
-      tooltips: true,
-      connect: [true, false],
-      range: {
-        'min': this.settings.range.min,
-        'max': this.settings.range.max,
-      }
+      this.initSlider(element);
+      this.initSettings();
+
+      this.slider = noUiSlider.create(this.elements.slider, {
+        start: this.settings.start,
+        step: this.settings.step,
+        tooltips: true,
+        connect: [true, false],
+        range: {
+          'min': this.settings.range.min,
+          'max': this.settings.range.max,
+        }
+      });
+
+      this.updatePrice();
+      this.initEvents();
+    },
+    (reason) => {
+      console.log(reason);
     });
-
-    this.setPrice();
-    this.initEvents();
   }
 
   initSlider(element) {
@@ -30,6 +37,7 @@ export default class PricingSlider {
       slider: element.querySelector('.js-slider'),
       values: element.querySelector('.js-values'),
       price: element.querySelector('.js-price'),
+      currency: element.querySelector('.js-price-currency'),
       limitedInfo: element.querySelector('.js-limited-info'),
       contact: element.querySelector('.js-contact')
     }
@@ -51,15 +59,15 @@ export default class PricingSlider {
 
     this.labels = {
       0: 'limited Lite plan',
-      10: 'under $20k USD / month',
-      20: '$20k—$80k USD / month',
-      30: '$80k—$150k USD / month',
-      40: '$150k—$300k USD / month',
-      50: '$300k—$500k USD / month',
-      60: '$500k—$1M USD / month',
-      70: '$1M—$1.5M USD / month',
-      80: '$1M—$2M USD / month',
-      90: 'over $2M USD / month'
+      10: `under ${this.currency.prefix}20k ${this.currency.symbol} / month`,
+      20: `${this.currency.prefix}20k—80k ${this.currency.symbol} / month`,
+      30: `${this.currency.prefix}80k—150k ${this.currency.symbol} / month`,
+      40: `${this.currency.prefix}150k—300k ${this.currency.symbol} / month`,
+      50: `${this.currency.prefix}300k—500k ${this.currency.symbol} / month`,
+      60: `${this.currency.prefix}500k—1M ${this.currency.symbol} / month`,
+      70: `${this.currency.prefix}1M—1.5M ${this.currency.symbol} / month`,
+      80: `${this.currency.prefix}1M—2M ${this.currency.symbol} / month`,
+      90: `over ${this.currency.prefix}2M ${this.currency.symbol} / month`
     }
 
 
@@ -76,11 +84,11 @@ export default class PricingSlider {
   }
 
   initEvents() {
-    this.slider.on('set', () => this.setPrice());
-    this.slider.on('update', () => this.replaceTooltip());
+    this.slider.on('set', () => this.updatePrice());
+    this.slider.on('update', () => this.updateTooltip());
   }
 
-  setPrice() {
+  updatePrice() {
     const value = parseInt(this.slider.get());
 
     if (value === 0) {
@@ -95,13 +103,16 @@ export default class PricingSlider {
       this.toggleContact(true);
       this.toggleLimited(false);
     } else {
-      this.elements.price.innerHTML = this.prices[value];
+      const price = Math.round(this.prices[value] * this.currency.conversion);
+      
+      this.elements.currency.innerHTML = this.currency.prefix;
+      this.elements.price.innerHTML = price;
     }
 
-    this.replaceTooltip();
+    this.updateTooltip();
   }
 
-  replaceTooltip() {
+  updateTooltip() {
     const tooltip = this.elements.slider.querySelector('.noUi-tooltip');
     const value = parseInt(this.slider.get());
 
@@ -124,5 +135,55 @@ export default class PricingSlider {
       this.elements.contact.style.display = 'none';
       this.elements.values.style.display = 'block';
     }
+  }
+
+  apiCall(url, methodType) {
+    let promise = new Promise((resolve, reject) => {
+      let xhr = new XMLHttpRequest();
+
+      if ('withCredentials' in xhr) {
+        xhr.open(methodType, url, true);
+      } else {
+        reject(new Error('CORS not supported'));
+      }
+
+      xhr.send();
+      xhr.onreadystatechange = () => {
+        if (xhr.readyState === 4) {
+          if (xhr.status === 200) {
+            resolve(JSON.parse(xhr.responseText));
+          } else {
+            reject(xhr.status);
+          }
+        }
+      }
+    });
+
+    return promise;
+  }
+
+  initLocalization(id) {
+    let promise = new Promise((resolve, reject) => {
+      const apiUrl = `https://ssl.geoplugin.net/json.gp?k=${id}`;
+      let currency = {
+        prefix: '$',
+        symbol: 'USD',
+        conversion: 1
+      };
+
+      this.apiCall(apiUrl, 'GET').then(
+        (data) => {
+          currency.prefix = data.geoplugin_currencySymbol_UTF8 ? data.geoplugin_currencySymbol_UTF8 : '$';
+          currency.symbol = data.geoplugin_currencyCode ? data.geoplugin_currencyCode : 'USD';
+          currency.conversion = data.geoplugin_currencyConverter ? data.geoplugin_currencyConverter : 1;
+          resolve(currency);
+        },
+        (reason) => { 
+          reject(reason); 
+        }
+      );
+    });
+
+    return promise;
   }
 }
