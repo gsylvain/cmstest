@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light wow fadeInDown" data-wow-delay="0.2s">
+<nav class="navbar navbar-expand-lg navbar-light bg-light>
   <div class="container">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -16,19 +16,22 @@
         <li class="nav-item">
           <%= link_to 'Pricing', '/pricing.html', class: 'nav-link' %>
         </li>
-         <li class="nav-item">
-          <%= link_to 'Integrations', '/integrations.html', class: 'nav-link' %>
-        </li>
-          <li class="nav-item">
+       <li class="nav-item">
           <%= link_to 'Profit Guide', '/profit-guide', class: 'nav-link' %>
         </li>
-          <li class="nav-item">
-          <%= link_to 'Login', 'https://app.ordermetrics.io/login', class: 'nav-link' %>
-        </li>
-        <li class="nav-item ml-lg-auto"><form action='https://app.ordermetrics.io/begin'>
-          <button class="btn btn-outline" type="submit">Sign up</button>
+        
+          <li class="nav-item ml-lg-auto">
+          <form action='https://app.ordermetrics.io/login'>
+          <button class="btn btn-outline" type="submit">Login</button>
         </form>
-        </li>
+</li>
+<li class="nav-item ml-1">
+          <form action='https://app.ordermetrics.io/begin'>
+          <button class="btn btn-primary" type="submit">Sign up</button>
+        </form>
+
+        
+      </li>
       </ul>
     </div>
   </div>
