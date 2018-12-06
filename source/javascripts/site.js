@@ -3,6 +3,7 @@ import Siema from 'siema';
 
 import 'bootstrap/js/dist/collapse';
 import 'bootstrap/js/dist/dropdown';
+import 'bootstrap/js/dist/modal';
 
 import Questions from './components/questions';
 import PricingSlider from './components/pricing';
