@@ -19,7 +19,6 @@ module.exports = {
     "declaration-no-important": true,
     "declaration-colon-space-before": "never",
     "declaration-colon-space-after": "always",
-    "property-no-vendor-prefix": true,
     "value-no-vendor-prefix": true,
     "number-leading-zero": "never",
     "function-url-quotes": "always",
@@ -27,7 +26,6 @@ module.exports = {
     "font-family-name-quotes": "always-where-recommended",
     "comment-whitespace-inside": "always",
     "comment-empty-line-before": "always",
-    "at-rule-no-vendor-prefix": true,
     "at-rule-empty-line-before": ["always", {
       except: [
         "first-nested",
@@ -42,7 +40,7 @@ module.exports = {
     "selector-pseudo-element-colon-notation": "single",
     "selector-pseudo-class-parentheses-space-inside": "never",
     "selector-no-vendor-prefix": true,
-    "selector-max-universal": 0,
+    "selector-max-universal": 2,
     "media-feature-range-operator-space-before": "always",
     "media-feature-range-operator-space-after": "always",
     "media-feature-parentheses-space-inside": "never",
