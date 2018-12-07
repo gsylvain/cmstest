@@ -5,6 +5,8 @@ import 'bootstrap/js/dist/collapse';
 import 'bootstrap/js/dist/dropdown';
 import 'bootstrap/js/dist/modal';
 
+import './components/timeline.js';
+
 import Questions from './components/questions';
 import PricingSlider from './components/pricing';
 
