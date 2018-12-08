@@ -32,14 +32,14 @@
   /* vertically center text */
   letter-spacing: 2px; }
 #nav-rocket, .expanding-rocket-initial {
-  width: 170px;
+
   background-size: 29px;
   background-repeat: no-repeat;
   background-position: center center; }
   @media screen and (max-width: 585px) {
     #nav-rocket, .expanding-rocket-initial {
       background-position: 30% 32%;
-      width: 40px; } }
+      } }
 
 @-webkit-keyframes thumb {
   0% {
