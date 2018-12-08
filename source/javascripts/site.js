@@ -50,3 +50,60 @@ window.addEventListener('load', function () {
     window.addEventListener('resize', () => { resizeHero(); }, false);
   }
 }, false);
+
+// start rocket clicking thing
+
+'use strict';
+
+function ready(fn) {
+  if (document.readyState != 'loading'){
+    fn();
+  } else {
+    document.addEventListener('DOMContentLoaded', fn);
+  }
+}
+
+ready(function() {
+  // these dont change
+  var navrocketElem = document.getElementById('nav-rocket'),
+      navrocketBgSize = parseInt(window.getComputedStyle(navrocketElem)
+        .getPropertyValue('background-size'), 10);
+
+  navrocketElem.addEventListener('click', function(e) {
+    e.preventDefault();
+    console.log(navrocketElem, navrocketDOMRect);
+
+    // these change depending on window size
+    var navrocketDOMRect = navrocketElem.getBoundingClientRect(),
+        windowWidth = window.innerWidth,
+        windowHeight = window.innerHeight;
+
+    var rocket = getrocket(navrocketDOMRect, navrocketBgSize);
+    document.body.appendChild(rocket);
+    
+    // force a repaint so transition is applied correctly
+    window.getComputedStyle(rocket).display;
+    rocket.classList.add('expanding-rocket-expand');
+    rocket.style.top = (windowHeight * (.75 - Math.random())) + "px";
+    rocket.style.left = (windowWidth * (.75 - Math.random()) * .75) + "px";
+  });
+
+  document.body.addEventListener('transitionend', function(e) {
+    var el = e.target;
+    if(el.classList.contains('expanding-rocket-expand')) {
+      document.body.removeChild(el);
+    }
+  });
+});
+
+function getrocket(DOMRect, bgSize) {
+  var rocket = document.createElement('div');
+  rocket.classList.add('expanding-rocket-initial');
+
+  rocket.style.top = (DOMRect.top + DOMRect.height/2 - bgSize/2) + "px";
+  rocket.style.left = (DOMRect.left + DOMRect.width/2 - bgSize/2) + "px";
+  rocket.style.height = bgSize + "px";
+  rocket.style.width = bgSize + "px";
+
+  return rocket;
+}
