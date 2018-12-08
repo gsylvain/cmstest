@@ -3,3 +3,13 @@
  @extend %section;
 
 }
+
+.panel-title {
+
+    a {
+      color: $teal; }
+}
+
+.panel-default {
+	padding-top: 3px
+}
