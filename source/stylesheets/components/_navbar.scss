@@ -23,3 +23,54 @@
     }
   }
 }
+
+#nav-rocket, .site-title {
+  float: left;
+  height: inherit;
+  display: block;
+  line-height: inherit;
+  /* vertically center text */
+  letter-spacing: 2px; }
+#nav-rocket, .expanding-rocket-initial {
+
+  background-size: 29px;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  @media screen and (max-width: 585px) {
+    #nav-rocket, .expanding-rocket-initial {
+      background-position: 30% 32%;
+      } }
+
+@-webkit-keyframes thumb {
+  0% {
+    -webkit-transform: scale(1); }
+  25% {
+    -webkit-transform: scale(1.15); }
+  50% {
+    -webkit-transform: scale(1); }
+  70% {
+    -webkit-transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1); } }
+
+
+.expanding-rocket-initial {
+  position: fixed;
+  z-index: 10000000000;
+  background-size: 100%; }
+
+.expanding-rocket-expand {
+  transition: all 2s;
+  opacity: 0;
+  width: 700px !important;
+  height: 700px !important;
+   background-image: url("/images/logo-icon.svg");
+  pointer-events: none; }
+  @media screen and (max-width: 840px) {
+    .expanding-rocket-expand {
+      width: 500px !important;
+      height: 500px !important; } }
+  @media screen and (max-width: 585px) {
+    .expanding-rocket-expand {
+      width: 300px !important;
+      height: 300px !important; } }
