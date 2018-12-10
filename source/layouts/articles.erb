@@ -9,6 +9,8 @@
     <title><%= current_page.data.title + ' • OrderMetrics' || "OrderMetrics" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <link rel="canonical" href="https://www.ordermetrics.com<%= current_page.url %>" />
+
   </head>
   <body>
      <%= partial 'components/header' %>
