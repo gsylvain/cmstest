@@ -31,6 +31,8 @@ $slick-loader-path: '~slick-carousel/slick/';
 @import 'components/cta';
 @import 'components/footer';
 @import 'components/between';
+@import 'components/usecases';
+
 
 // Home page components
 @import 'components/home/hero';
@@ -44,6 +46,9 @@ $slick-loader-path: '~slick-carousel/slick/';
 @import 'components/pricing/pricing';
 @import 'components/pricing/features';
 @import 'components/pricing/quote';
+
+@import 'components/integrations/intquote';
+
 
 // Attribution Page timeline
 @import 'components/attribution/timeline.css';

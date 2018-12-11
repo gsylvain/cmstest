@@ -1,0 +1,21 @@
+.intquote {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  $quote-padding: 30px;
+
+  &__content {
+    font-size: $font-size-xxl;
+    letter-spacing: -.01em;
+    padding-left: $quote-padding;
+    padding-top: $quote-padding * .71;
+    background: url('/images/bg-quote.svg') top left no-repeat;
+  }
+
+  &__author {
+    padding-left: $quote-padding;
+    padding-top: $spacing-l;
+    color: red;
+  }
+}
+
+// Slick Carousel styling

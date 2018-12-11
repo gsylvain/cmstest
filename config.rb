@@ -6,7 +6,11 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/profit-guide/*", :layout => "profit-layout"
-page "/articles/*", :layout => "articles"
+page "/profit-guide/2016/*", :layout => "articles"
+page "/profit-guide/2017/*", :layout => "articles"
+page "/profit-guide/2018/*", :layout => "articles"
+
+
 
 
 

@@ -3,20 +3,12 @@
   padding-top: $spacing-xxl ;
 
   &__list {
-    margin: 0;
-    padding: $spacing-l 0 0;
-    list-style-type: none;
+    padding: $spacing-m 0 0;
+    list-style-type: decimal;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1rem;
-
-    @include media-breakpoint-up(md) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    @include media-breakpoint-up(lg) {
-      grid-template-columns: repeat(3, 1fr);
-    }
+    grid-gap: 0.5rem;
+    position: relative;
 
     &__item {
       padding-left: 20px;

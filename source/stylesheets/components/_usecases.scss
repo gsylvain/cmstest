@@ -1,0 +1,19 @@
+.usecases {
+
+ margin-top: $spacing-xxl;
+
+ &__intbenefits {
+    padding: $spacing-l;
+    background: $white;
+    box-shadow: $box-shadow-xxl;
+    margin-top: $spacing-l;
+
+  }
+
+ &__one {
+    padding: $spacing;
+    position: relative;
+    transition: all .25s $easing;
+  }
+
+  }
