@@ -9,152 +9,242 @@
 
 <url>
   <loc>https://ordermetrics.com/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/pricing</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/integrations</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/reviews.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/integrations.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/jobs.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/pricing.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/attribution.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/video-guides.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/faq.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/data-policy.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://ordermetrics.com/integrations/storefronts/amazon-seller/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/storefronts/shopify/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/storefronts/woocommerce/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/storefronts/ebay/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/ad-platforms/amazon-ppc/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/ad-platforms/facebook-ads/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/ad-platforms/google-adwords/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/ad-platforms/bingads/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/ad-platforms/outbrain/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/shipping/shipstation/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/shipping/shipping-easy/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/shipping/fba/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/shipping/shiphero/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/shipping/shipfusion/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/shipping/shippo/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/shipping/shipwire/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/shipping/aliexpress/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ordermetrics.com/integrations/google-analytics/</loc>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://ordermetrics.com/index.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/reduce-shipping-costs/index.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/reduce-payment-processing-fees/index.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/pricing-and-discounting/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/upselling-bundling/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/optimizing-paid-marketing/index.html</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/OMDPA.pdf</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/reduce-shipping-costs/optimize-shipping-methods/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/reduce-shipping-costs/negotiate-with-fedex-ups-usps-dhl/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/reduce-payment-processing-fees/how-to-negotiate-payment-processing-fees-with-stripe/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/reduce-payment-processing-fees/reduce-shopify-transaction-fees/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/pricing-and-discounting/pricing-strategy/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/upselling-bundling/maximize-ltv/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/upselling-bundling/increase-average-order-value/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/optimizing-paid-marketing/understand-attribution/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/reduce-shipping-costs/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/reduce-payment-processing-fees/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://ordermetrics.com/profit-guide/optimizing-paid-marketing/</loc>
-  <lastmod>2018-12-10T22:13:54+00:00</lastmod>
+  <lastmod>2018-12-13T21:34:39+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 
