@@ -151,7 +151,11 @@ export default class PricingSlider {
       xhr.onreadystatechange = () => {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
-            resolve(JSON.parse(xhr.responseText));
+            try {
+              resolve(JSON.parse(xhr.responseText));
+            } catch (error) {
+              reject(error);
+            }
           } else {
             reject(xhr.status);
           }
