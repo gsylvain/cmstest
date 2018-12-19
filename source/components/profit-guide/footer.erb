@@ -1,17 +1,18 @@
 <!--  Modal -->
-<div id="myModal" class="modal fade" role="dialog">
+<div id="signupModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
 <!-- Modal content-->
-<div class="modal-content">
+<div class="modal-content text-center">
 <div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">×</button>
-<h4 class="modal-title">Receive an Email When We Post a New Article</h4>
+<h3 class="modal-title">Get Updates On Profit Guide</h3>
 </div>
 <div class="modal-body">
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
   </p>
 
   <p>
@@ -72,3 +73,12 @@
     <script type="text/javascript" src="/profit-guide/assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
     <script type="text/javascript" src="/profit-guide/assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
     <script type="text/javascript" src="/profit-guide/assets/js/main.js"></script>
+
+    <script>
+$( document ).ready(function() {
+setTimeout(function() {
+$('#signupModal').modal();
+}, 2000);
+});
+
+</script>
