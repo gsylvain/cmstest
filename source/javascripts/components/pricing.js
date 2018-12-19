@@ -179,7 +179,8 @@ export default class PricingSlider {
           resolve(currency);
         },
         (reason) => { 
-          reject(reason); 
+          console.error(reason);
+          resolve(currency);
         }
       );
     });
