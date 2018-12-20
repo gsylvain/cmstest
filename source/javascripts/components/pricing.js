@@ -45,29 +45,31 @@ export default class PricingSlider {
 
   initSettings() {
     this.prices = {
-      0: 29,
+     0: 29,
       10: 59,
       20: 99,
       30: 149,
       40: 249,
       50: 349,
       60: 399,
-      70: 449,
-      80: 499,
-      90: false
+      70: 649,
+      80: 749,
+      90: 999,
+      100: false
     };
 
     this.labels = {
-      0: 'limited Lite plan',
+       0: 'limited Lite plan',
       10: `under ${this.currency.prefix}20k ${this.currency.symbol} / month`,
       20: `${this.currency.prefix}20k—80k ${this.currency.symbol} / month`,
       30: `${this.currency.prefix}80k—150k ${this.currency.symbol} / month`,
       40: `${this.currency.prefix}150k—300k ${this.currency.symbol} / month`,
       50: `${this.currency.prefix}300k—500k ${this.currency.symbol} / month`,
       60: `${this.currency.prefix}500k—1M ${this.currency.symbol} / month`,
-      70: `${this.currency.prefix}1M—1.5M ${this.currency.symbol} / month`,
-      80: `${this.currency.prefix}1M—2M ${this.currency.symbol} / month`,
-      90: `over ${this.currency.prefix}2M ${this.currency.symbol} / month`
+      70: `${this.currency.prefix}1M—2M ${this.currency.symbol} / month`,
+      80: `${this.currency.prefix}2M—3M ${this.currency.symbol} / month`,
+      90: `${this.currency.prefix}3M—4M ${this.currency.symbol} / month`,
+      100: `over ${this.currency.prefix}4M ${this.currency.symbol} / month`
     }
 
 
