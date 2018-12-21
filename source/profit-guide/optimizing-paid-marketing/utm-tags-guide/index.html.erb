@@ -93,7 +93,7 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
 
                                     <P><i></P></i>
                                     
-                                    <p>The main software that uses these tags is Google Analytics. If you aren’t using Google Analytics, there’s not much point having utm tags on your links. 
+                                    <p>The main platforms that use these tags are Google Analytics & Facebook Ads. If you aren’t using these, some other analytics tools do also track UTM tags but they are less common. Most people use Google Analytics for this, in fact, Google Analytics bought Urchin - the company responsible for the 3 letter term (Urchin Tracking Module), which is why they are so ubiquitous.  
                                     </p>
                                     
                                     <p>The data from the utm tags shows up in Google Analytics in various places. It's also accessible in some other analytics platforms, as well as tools that connect to Google Analytics such as OrderMetrics. 
@@ -123,16 +123,16 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
                             <section id="5-types" class="doc-section">
                                 <h2 class="section-title">The 5 Types of UTM Tag</h2>
                                 <div class="section-block">
-                                    <p><strong>utm_campaign</strong></p>
+                                    <p><strong>utm_campaign</strong> - commonly used</p>
                                     <p>Use this for campaign name - e.g. JanuarySale or VIPRetargeting.  It’s okay if you make this one long and specific, and put more information in it so you don’t get confused between one campaign and another e.g. utm_campaign=january_sale_1-5-2019_retarget_loyal_customers
                                      </p>
 
-                                     <p><strong>utm_source</strong></p>
+                                     <p><strong>utm_source</strong> - mandatory for most reporting</p>
                                     <p>Use this to show which service the referring traffic came from -  google, facebook, or a newsletter. If this is from email newsletters, it’s good to include which list you used here e.g. loyal_customers or instagram_users (or however you have your email list segmented.) </br>
                                     This is mandatory, you must fill it out for the other tags to work. 
                                      </p>
 
-                                     <p><strong>utm_medium</strong></p>
+                                     <p><strong>utm_medium</strong> - commonly used </p>
                                     <p>Often confused with source, this was designed for words like email, CPC, social that show the medium the user came through. 
                                     </p>
                                     <p>Source & Medium combined will show up as a Channel in Google Analytics - Google Analytics recommends following their guide to this tag in particular very carefully. <a href="https://support.google.com/analytics/answer/3297892?hl=en&ref_topic=6010089" target="_blank">Default channel definitions - Google Analytics Help</a>.  Make sure your tags are consistent or this won't work nicely. 
@@ -141,12 +141,12 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
                                      <p>If you really want to specific here you can add your own channel definitions inside Google Analytics, that can capture more types beyond the default definitions, useful for creating channels like "paid social" vs lumping those in with "paid ads"</p>
 
 
-                                     <p><strong>utm_term</strong></p>
+                                     <p><strong>utm_term</strong> - (not recommended for non-search based ads)</p>
                                     <p>Use this for PPC advertising to pass on the keyword searched for. So make the link the keyword or keyword group you are targeting. Everything in utm_term shows up in Google Analyics Keywords report so if you write something weird, it will show up as a keyword that people searched for. 
                                      </p>
                                      <p>Your keyword report might not be that important to you in which case you can use utm_term in non-ppc ad situations to add different types of metadata. Some analytics software will use this term to enable more advanced tracking of Facebook Ads & other marketing channels. </p>
 
-                                     <p><strong>utm_content</strong></p>
+                                     <p><strong>utm_content</strong> - not commonly used</p>
                                      <p>Utm_content is used for other general tagging & is not required for most ad tracking uses  But it is very useful in certain situations. </P>
                                         <p>It’s mainly for A/B testing - so if everything else is the same e.g. utm_campaign=<strong>january_sale_retarget</strong> </br>
                                         utm_source=<strong>newsletter</strong></br>
@@ -224,13 +224,13 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
                                         
                                         <li>Did you know you can add utm tags to your 301 redirects? If you have any, add the utm tags to the redirects in your htaccess file & you’ll know how long the old links are up for and how often they are clicked. </li>
                                             
-                                        <li>Try using a link shortener tool like bit.ly or Rebrandly to make a more simple URL. 
+                                        <li>Try using a link shortener tool like bit.ly or Rebrandly to make a more simple URL. This makes sense especially when your target customer can see the link text directly e.g. in Instagram profiles or Print ads. For ads in your email marketing & Adwords, the link URL won't be immediately visible with all the UTM tags so you don't need to worry so much. 
                                     
                                         </li>
 
-                                        <li>Finally - we recommend tagging everything all the time! You’ve seen how you can better tag and track influencer marketing, and you can track much more! Add utm tags to any othermarketing links you might have forgotten, e.g. your email signature link, build them into QR codes, you can even tag your print ads if you use a link shortener to make a memorable shortlink. </li>
+                                        <li>Finally - <strong>we recommend tagging everything all the time!</strong> You’ve seen how you can better tag and track influencer marketing, and you can track much more! Add utm tags to any othermarketing links you might have forgotten, e.g. your email signature link, build them into QR codes, you can even tag your print ads if you use a link shortener to make a memorable shortlink. </li>
                                 
-                                
+                            
                                         
                                     </ul>
 
@@ -239,10 +239,41 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
                                 
                             </section><!--//doc-section-->
 
+                            <section id="ordermetrics-facebookutm" class="doc-section">
+                                <h2 class="section-title">How To Dynamically Add UTM Tags Your Facebook Ads</h2>
+                                <div class="section-block">
+                                    <p>Facebook provides a method for you to add Facebook dynamic tagging into your links UTM guide. This means you can set up all your Facebook ads to all follow a tagging scheme, <strong>without you having to create individual UTM links yourself</strong>.  Facebook's ad software will automatically add UTM tags to your links based on your campaigns and adverts names.  </p>
+
+<p>Facebook offers the following parameters that you can choose from to input in your links' UTM tags. You enter these for each Ad as you make the ad - you can't go back and add the tags after you've made the ad. </p>
+
+
+    <ul>
+    <li> ad_id={{ad.id}}</li>
+    <li>adset_id={{adset.id}}</li>
+    <li>campaign_id={{campaign.id}}</li>
+    <li>ad_name={{ad.name}}</li>
+    <li>adset_name={{adset.name}}</li>
+    <li>campaign_name={{campaign.name}}</li>
+    </ul>
+     </p>
+<p>At the Ad level in Facebook Ads, click "Build a URL Parameter" under Website URL.  It's a small link under the text field.  This pops up the URL Parameter builder. </p>
+<img class="img-fluid" src="/images/facebook-parameter-builder.png">
+
+<p>This is where you can tell Facebook to generate UTM links that auto-insert your Ad Name & Ad Campaign into the tags. Just add the parameters in curly brackers that you want in each field like this  </br>
+<code> utm_campaign={{campaign.name}}   utm_content={{ad.name}}</code> and the link will be generated correctly. </p>
+
+<p>As of end of 2018 I think you still need to add these paramters in the URL for each ad you create. I am not sure that you can set it up so that every ad will have the UTM tags dynamically generated. If you find a way to do that, let us know!</p>
+
+
+                             
+                                </div><!--//section-block-->
+                                
+                            </section><!--//doc-section-->
+
                              <section id="ordermetrics-facebookutm" class="doc-section">
                                 <h2 class="section-title">How OrderMetrics uses UTM Tags To Track Facebook Ads</h2>
                                 <div class="section-block">
-                                    <p>We can match your Facebook ads to your orders in your Shopify, WooCommerce or Amazon stores. This will allow you to see the true profitability of your individual Facebook ads (versus total Facebook spend only)</p>
+                                    <p>We can match your Facebook ads to your orders in your Shopify, WooCommerce or BigCommerce stores. This will allow you to see the true profitability of your individual Facebook ads (versus total Facebook spend only)</p>
 
 <p>We need to add some info to your UTM tags used in your Facebook ads to do this. </p>
 
@@ -258,7 +289,7 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
 
 <p>If you already use some form of utm_term tagging on your Facebook ads - we append our tag to the end of your tag.  This is designed to minimize the effect for your own reporting, you will still have all the other details you wrote. E.g. <code>utm_term=YOUR_TAG|OM_14059430</code></p>
 
-<p>Note that other analytics software overwrites your entire tag, our appending solution is the most considerate way to perform this tagging available to us presently.  </p>
+<p>Note that many other analytics software overwrites your entire tag, our appending solution is the most considerate way to perform this tagging available to us presently.  </p>
                              
                                 </div><!--//section-block-->
                                 
