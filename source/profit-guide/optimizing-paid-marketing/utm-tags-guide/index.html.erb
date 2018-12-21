@@ -32,7 +32,7 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
     "name" : "Order Metrics Inc"
   },
   "applicationCategory" : "Analytics",
-  "screenshot" : "https://www.ordermetrics.com/images/mainDashNew.png",
+  "screenshot" : "https://ordermetrics.com/images/mainDashNew.png",
   "aggregateRating" : {
     "@type" : "AggregateRating",
     "ratingValue" : "4.9",
@@ -66,8 +66,8 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title">Guide to UTM Tags & Tracking Your Marketing (including Influencer Spend)</h1>
-                    <div class="meta"><i class="far fa-clock"></i> Last updated: December 20th, 2018. </div>
+                    <h1 class="doc-title">Guide to UTM Tags & Tracking Your Marketing </br>(Including Influencer Spend)</h1>
+                    <div class="meta"><i class="far fa-clock"></i> Last updated: December 21st, 2018. </div>
                 </div><!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-7 col-12 order-1">
@@ -80,71 +80,97 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
                                     <p>
                                     Analytics software providers can parse these UTM tags and show you the success of each link & tag you make.  
                                     </p>
+
+                                    <P><i>Looking for info on how OrderMetrics can auto-tag Facebook ads for you? Jump to the <a class="scrollto" href="#ordermetrics-facebookutm">Facebook Autotagging section</a>.</P></i>
                                     
                                     <p>The main software that uses these tags is Google Analytics. If you aren’t using Google Analytics, there’s not much point having utm tags on your links. 
                                     </p>
                                     
                                     <p>The data from the utm tags shows up in Google Analytics in various places. It's also accessible in some other analytics platforms, as well as tools that connect to Google Analytics such as OrderMetrics. 
                                      </p>
+
+                                     <p>UTM tags look like this </br><span class="text-muted">https://www.ordermetrics.com/?utm_source=</span><strong>TAG</strong><span class="text-muted">&utm_campaign=</span><strong>TAG</strong><span class="text-muted">&utm_medium=</span><strong>TAG</strong></p>
                                     
-                                    <p>With an effective model of your advertising funnel, you can jettison the tactics that aren't working and put more effort into the ones that are. 
+                                    <p>Technically you can put whatever the hell you want in any of the tags, if you are feeling crazy. The link will still work but it won't help with analytics. If you want it to make sense in Google Analytics (& other analytics apps), it’s best to follow certain conventions.
+
                                     </p>
                                     
-                                    <p>The following article outlines the main attribution models that are available to most people through Google Analytics or other attribution software and when to use them, with a little insight from our experiences developing attribution tools at Order Metrics</p>
+                                    <p>We’ll show you the main uses for each tag and then explain how to best use each one.  
+                                    </p>
+
+                                    <p>OrderMetrics itself can perform some automatic UTM tagging to allow us to better analyze your advertising profitability. 
+                                    </p>
                         
                                     <p>
                                         <h3>Why Should You Trust Us?</h3>
                                               <p>This was written by <a href="https://www.linkedin.com/in/georgesylvain/" target="_blank">George Sylvain</a>, co-founder of <a href="https://www.socialprintstudio.com">Social Print Studio</a>, a successful e-commerce store that has been selling prints and profitable for 8 years. </p>
                                                 <p>
-                                                Additional help was provided by <a href="https://www.linkedin.com/in/henrykronick/" target="_blank">Hank Kronick</a>,founder of <a href="https://www.ordermetrics.com" target="_blank">Order Metrics</a>. In some cases we worked with researchers to make sure we covered all angles. We have a combined 16 years of e-commerce experience and have personally the techniques described in this guide, and seen the results in practice.</p>
+                                                Additional help was provided by <a href="https://www.linkedin.com/in/henrykronick/" target="_blank">Hank Kronick</a>,founder of <a href="https://ordermetrics.com" target="_blank">Order Metrics</a>. In some cases we worked with researchers & outside experts to make sure we covered all angles.</p>
                             
                                 </div>
                                    
                             </section><!--//doc-section-->
-                            <section id="first-section" class="doc-section">
-                                <h3 class="section-title">Choosing An Attribution Model - Why It's Important</h2>
-                                <div id="choosing-a-model"  class="section-block">
-                                    <p>The goal of attribution is to know the true value of each marketing touch point, by understanding how they work together. </p>
-                                    <p>Many marketers over-value the last click in their sales funnel because thats the one that delivered the sale. </p>
-                                    <p>Also, until recently the last-click attribution model was the only one available. </P>
-                                        <p>
-                                        Consider a situation where the last click before purchasing was <b>always</b> from an email marketing campaign. </p>
-                                        <p>
-                                        Last click analysis would suggest you should cancel all your other marketing, because the email marketing is the only one delivering paid conversions. But that would be wrong-headed. 
-                                    </p>
-                                    <p>You need to understand where that customer came from originally before they got on the email list, and to do that, you need to attribute a portion of each conversion value to that original marketing touch point as well as to your email marketing.</p>
-                            
-                
+                            <section id="5-types" class="doc-section">
+                                <h2 class="section-title">The 5 Types of UTM Tag</h2>
+                                <div class="section-block">
+                                    <p><strong>utm_campaign</strong></p>
+                                    <p>Use this for campaign name - e.g. JanuarySale or VIPRetargeting.  It’s okay if you make this one long and specific, and put more information in it so you don’t get confused between one campaign and another e.g. utm_campaign=january_sale_1-5-2019_retarget_loyal_customers
+                                     </p>
 
-                                    <h2 id="6-main" class="section-title">6 Main Attribution Models</h2>
-                                   <div class="section-block" >
-                                    <p>You need to know a little about these 6 attribution models that are standard in Google Analytics as well as many other attribution modeling tools. Then we can go about explaining which one to use and why.  </p>
+                                     <p><strong>utm_source</strong></p>
+                                    <p>Use this to show which service the referring traffic came from -  google, facebook, or a newsletter. If this is from email newsletters, it’s good to include which list you used here e.g. loyal_customers or instagram_users (or however you have your email list segmented.) </br>
+                                    This is mandatory, you must fill it out for the other tags to work. 
+                                     </p>
+
+                                     <p><strong>utm_medium</strong></p>
+                                    <p>Often confused with source, this was designed for words like email, CPC, social that show the medium the user came through. 
+                                    </p>
+                                    <p>Source & Medium combined will show up as a Channel in Google Analytics - Google Analytics recommends following their guide to this tag in particular very carefully. <a href="https://support.google.com/analytics/answer/3297892?hl=en&ref_topic=6010089" target="_blank">Default channel definitions - Google Analytics Help</a>.  Make sure your tags are consistent or this won't work nicely. 
+                                     </p>
+                                        <p>These Channels show up in Google Analytics under Acquisition --> All Traffic --> Source / Medium</p><img class="img-fluid" src='/images/source-medium.png'></br>
+                                     <p>If you really want to specific here you can add your own channel definitions inside Google Analytics, that can capture more types beyond the default definitions, useful for creating channels like "paid social" vs lumping those in with "paid ads"</p>
+
+
+
+                                     <p><strong>utm_term</strong></p>
+                                    <p>Use this for PPC advertising to pass on the keyword searched for. So make the link the keyword or keyword group you are targeting. Everything in utm_term shows up in Google Analyics Keywords report so if you write something weird, it will show up as a keyword that people searched for. 
+                                     </p>
+                                     <p>Your keyword report might not be that important to you in which case you can use utm_term in non-ppc ad situations to add different types of metadata. Some analytics software will use this term to enable more advanced tracking of Facebook Ads & other marketing channels. </p>
+
+                                     <p><strong>utm_content</strong></p>
+                                     <p>Utm_content is used for other general tagging & is not required for most ad tracking uses  But it is very useful in certain situations. </P>
+                                        <p>It’s mainly for A/B testing - so if everything else is the same e.g. utm_campaign=<strong>january_sale_retarget</strong> </br>
+                                        utm_source=<strong>newsletter</strong></br>
+                                        utm_medium=<strong>email</strong></br>
+                                        But maybe you still have two different ad creatives, one funny and one serious, for the email. Then you use utm_content like so to differentiate them:</br>
+                                        utm_content=<strong>january_sale_funny</strong> in one </br>
+                                        utm_content=<strong>january_sale_serious</strong> in the other</br>
+                                        Then you’ll be able to track which of those 2 variants of the same campaign generated more traffic & sales. 
+                                    </p>
+
+                                    </p>
+                                </div>
+
+                                    <h2 id="watchout" class="section-title">Things To Watch Out For</h2>
+                                   <div class="section-block">
+                                    <p>So as you can see utm tags are fairly simple to understand but there are still a few ways they can trip you up if you are not careful.  </p>
                                     
                                     <ul class="list">
-                                        <li><b>Last Interaction:</b> <img class="img-fluid" src="/profit-guide/assets/images/1_Last_Interaction.png">This is the default setting that Google Analytics uses to track your campaign. It gives 100% of the credit to the interaction that immediately preceded the sale. Important? Absolutely. Short sighted? Incredibly. While utilizing the data from this model could help increase sales by adding focus to interactions that close them, ignoring any other marketing touch points that got your customer to the conversion point will limit the potential of your campaign. <br>
-                                            <b>When to use:</b> If you only want to know the last ad clicked before a sale. Not advised, old-school techniques. 
+                                        <li><b>Tags are case sensitive</b> - this is important because consistency is important. For example, if you want to know how e-mail marketing is performing, you will want to see the aggregate of all the traffic & sales you received from utm_medium=<strong>email</strong>.  But if you used Email or e-mail in some tags instead of email, you'll have 2 or 3 different categories in your report.
                                         </li>
-                                        <li><b>Last Non-Direct Click:</b> <img class="img-fluid" src="/profit-guide/assets/images/2_Last_Nondirect_Click.png">This model shifts the credit to whatever ad campaign, organic click or paid action led to a conversion, excluding any that came direct. Direct is when someone types in your URL or it can happen when someone follows a link from outside the browser. It overvalues the previous non-direct click though, discounting whatever reason they came to your site directly. This can be useful for boosting sales by over-investing in effective ad campaigns but relying on it completely could lead to an over-reliance on paid content.
-                                             
-                                             <br>
-                                            <b>When to use:</b> Could be good if you are only running one ad campaign.
-                                        </li>
-                                        <li><b>Last Ad Click:</b> <img class="img-fluid" src="/profit-guide/assets/images/3_LastAdClick.png">In this model, all the credit goes to Ads, wherever they may be along the actual path to conversion. It’s a great way to make Google look great. It’s also a great way to analyze the effectiveness of your Ads campaign. If a certain ad is performing stronger than others, this model will make it look like a star. It pays no need to organic search or direct traffic.<br>
-                                        <b>When to use:</b> If you only want to understand the role Google Ads play in your purchase funnel. 
+                                        
+                                        <li><b>Don't use UTM tags internally on your site</b> - you want these tags to track your marketing right? So don't put them on your blog or on various buttons on your site, unless you are very sure about what you are doing. </li>
+                                            
+                                        <li><b>Beware of special charactes</b> - Don't use ? or & in your tags, and be careful using other special characters as well. We recommend you stick to a-z and 0-9 only, and use only lowercase. 
+                                    
                                         </li>
 
-                                        <li><b>First Interaction:</b><img class="img-fluid" src="/profit-guide/assets/images/4_First_Interaction.png">This is the “Once upon a time” model. When tracking your customer’s sales story, why not start at the beginning? This is a great way to monitor the top of your funnel and figure out what hooks are most effective at sending your clients down the path to you. However, be careful not to discount the actual channel that created the conversion. 
-                                        <br>
-                                        <b>When to use:</b> Only good when studying brand awareness - how people initially hear of you.
+                                        <li><b>Character Count</b> - There's technically no character count on your UTM tags but that doesn't mean you should go overboard and write a novel. There's a 2000 character limit for URLs (in some browsers) and that could trip you up. 
+                                
                                         </li>
-                                        <li><b>Time Decay:</b> <img class="img-fluid" src="/profit-guide/assets/images/5_Time_Decay.png">The first Multi-Touch model! This model doles out credits based on how long it takes for your customers to convert. Channels they saw five days ago that influenced them still get a little love, but not as much as the channel that immediately led to the conversion. It’s a pretty efficient model and a good starting point into this process. However, it tends to undervalue the first touch. If a strong ad hooked them in the beginning and got them thinking about you, this model may not give that the credit it deserves. 
-                                        <br>
-                                        <b>When to use:</b> Good for longer sales funnels, when you want to know which ad finally pushed someone to convert but not ignore any of the others. 
+                                        <li><b>Tag Reuse</b> - Make sure you use unique tags for each marketing effort. It's easier than you might think over the years to re-use the same set of tags for a new campaign - we recommend adding a date to each one incase your <strong>januarysale</strong> from 2017 overlaps with your <strong>januarysale</strong> from 2018!
                                     </li>
-                                        <li><b>Position-Based:</b><img class="img-fluid" src="/profit-guide/assets/images/6_Position_Based.png">This is the leader of the pack for many companies - the Goldilocks model for e-commerce in our opinion. In the position-based model, 40% of the credit goes to both the first and last touch points, and then the remaining 20% is spread evenly among the rest of the journey. Does it have the potential to undervalue your mid-funnel touch points? Absolutely. However, that can be worth it to give proper credit to both the value from the first touch point and the efficiency of the closing touch point. This is the model that will be most effective for the vast majority of small to medium sized businesses. If you want a “set it and forget it” model, position-based is the way to go. 
-                                        <br>
-                                        <b>When to use:</b> ASAP! In the early days of ad-tracking, Last-Click was the only option. But with ad-tracking so advanced, you need to use a multi-touch model like Position Based to truly understand your business.</li>
-
+                                        
                                     </ul>
 
 
@@ -154,36 +180,72 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
                         
                         
                             <section id="others-section" class="doc-section">
-                                <h2 class="section-title">Other Attribution Models</h2>
+                                <h2 class="section-title">How To Track Influencer Marketing using UTM Tags</h2>
                                 <div class="section-block">
-                                    <p>In addition to the default models, there are a few other ways to structure a campaign if you want to go deeper into the digital weeds. There are other data-driven models that use algorithms to assign credit, which typically are developed by your own data science team. You can also use Google’s Custom Attribution Model Tool to set your own weight for the  parts of the funnel that you believe are most effective. </p>
-                                    <p>Google Analytics has an Attribution Model Comparison Tool, which lets you see exactly how the credit distribution will be affected by up to three different models at once, letting you get a ton of data across models. You can get a sense from this of the different decisions each model can lead you to make. 
-                                    </p>
-                                
+                                   <p>Good news! You can track your influencer marketing efforts, and measure the results in your customer journeys and top conversion paths. </p>
+
+                                    <p>You just need to learn how to use UTM tags in non-traditional situations. 
+
+                                    <p>The Instagram, Twitter, Blog & Facebook links that your influencers use must contain specific UTM tags. 
+
+                                    <p><strong>We recommend the following setup for Influencer spend:</strong></br>
+                                    <strong>utm_campaign</strong> is where you should put the most critical information including the name of the influencer and the type of product they were promoting in each specific post (if there are many). </p>
+                                    <p>Go for a verbose & human-readable tag if possible e.g. <code>
+                                    utm_campaign=<strong>beyonce_instagram_yellow_blazer_jan2019</strong></code> </br>Then you can understand how each post performed with a glance at your analytics - including which influencer, and what product you were promotiong.</br>
+                                    Additionally you should use <br/><code>utm_medium=<strong>social</strong></code> and <br/><code>utm_source=<strong>instagram</strong></code></p>
+
+                                    <p>All together, that means the complete link you provide your influencer needs to be:</br><code>
+                                        http://www.yourwebsite.com/products/yellow-blazer?utm_campaign=<strong>beyonce_instagram_yellow_blazer_jan2019</strong>&utm_source=<strong>instagram</strong>&utm_medium=<strong>social</strong></code></p>
+
+                                    <p>It's best to plan out in advance each link & utm tags you want to provide your influencers, especially if you have multiple influencer campaigns across multiple channels like YouTube and Instagram & blogs. A good way to do this is to keep track of them in Excel/Google Sheets.  </p>
+
                              
                                 </div><!--//section-block-->
+
+                                  <h2 id="tricks" class="section-title">Tricks To Get The Most Out Of UTM Tags</h2>
+                                   <div class="section-block">
+                              
+                                    <ul class="list">
+                                        <li> It’s very important to use a consistent method of tagging.  This becomes more valuable ver a long period of time so that your various campaigns can be compared accurately.  The best method to do this is to pre-define the tag structure you want to have for every link. 
+                                        </li>
+                                        
+                                        <li>Did you know you can add utm tags to your 301 redirects? If you have any, add the utm tags to the redirects in your htaccess file & you’ll know how long the old links are up for and how often they are clicked. </li>
+                                            
+                                        <li>Try using a link shortener tool like bit.ly or Rebrandly to make a more simple URL. 
+                                    
+                                        </li>
+
+                                        <li>Finally - we recommend tagging everything all the time! You’ve seen how you can better tag and track influencer marketing, and you can track much more! Add utm tags to any othermarketing links you might have forgotten, e.g. your email signature link, build them into QR codes, you can even tag your print ads if you use a link shortener to make a memorable shortlink. </li>
+                                
+                                
+                                        
+                                    </ul>
+
+
+                                </div>
                                 
                             </section><!--//doc-section-->
 
-                             <section id="position-section" class="doc-section">
-                                <h2 class="section-title">The Power Of Position Based Model</h2>
+                             <section id="ordermetrics-facebookutm" class="doc-section">
+                                <h2 class="section-title">How OrderMetrics uses UTM Tags To Track Facebook Ads</h2>
                                 <div class="section-block">
-                                    <p>We strongly believe that for small and medium sized e-commerce businesses who are running a few different ad campaigns, the position-based model makes the most sense.
-                                    </p>
-                                    <p>
-                                    Start with 40% of the value assigned to the first way the customer found you, whatever that is, often a Google Ad or Social Referral </p>
-                                    <p>Then you say, 40% of the value is assigned to the last click, the one which led to a sale. </p>
-                                    <p>But you still assign some value, the remaining 20% to any other marketing touch points the customer interacted with in between.</p>
-                                    <p>This multi-touch attribution model gives you a theoretical model of how much of your total Customer Acquisition Cost you can assign to each step on the customer purchase journey. </p>
-                                    <p>Google Analytics and other tools like the reporting inside Facebook Ads all default to last-click or last non-direct click. If you have never thought about changing it, you are going to be overvaluing the last click. All the data you are seeing in the last-click model is telling you that you need to double down on that final step of the flow. But that just doesn't make sense to you, the business owner(unless you are selling ad clicks!).  
-                                    </p>
-                                    <p>So if you are new to this, <b>the biggest thing we believe you can do is to change your Google Analytics model to Position-Based</b> and then see how many sales Google Analytics is telling you came from each channel. Chances are you'll see a whole lot of different numbers and can make far better choices about where to invest those precious ad dollars. </p>
-                                 <h3>About This Guide</h3>
-                                        <p>The Order Metrics Profit & Growth guide is designed to help you unlock the most profit for your e-commerce business. 
-                                        </p>
-                                        <p>This is not intended to be nonsense content marketing like you find on other company blogs. </p>
-                                        <p>These are <b>real, tested techniques could help you grow your business</b> and put some cash back in your pocket so you can invest in things that matter to you. </p>
-                                        <p>Check out the other <a href="../../">articles we have written back at our profit guide index</a>.</p>
+                                    <p>We can match your Facebook ads to your orders in your Shopify, WooCommerce or Amazon stores. This will allow you to see the true profitability of your individual Facebook ads (versus total Facebook spend only)</p>
+
+<p>We need to add some info to your UTM tags used in your Facebook ads to do this. </p>
+
+<p>This allows you to know how much profit you made from each sale that came from a Facebook ad, after the individual cost of that Facebook ad campaign is accounted for. </p>
+
+<p><ul><li> We only tag new ads that you make after enabling auto-tagging inside OrderMetrics</li>
+    <li>There’s no way we can tag & track historical ads before you enable auto-tagging.</li>
+</ul></p>
+
+<p>The way it works is, we append a certain extra ID number on each ad you create after enabling auto tagging. </p>
+
+<p>We add this tag to the utm_term as it’s the least consequential of the 3 options we have (utm_source, utm_medium & utm_term).  </p>
+
+<p>If you already use some form of utm_term tagging on your Facebook ads - we append our tag to the end of your tag.  This is designed to minimize the effect for your own reporting, you will still have all the other details you wrote. E.g. <code>utm_term=YOUR_TAG|OM_14059430</code></p>
+
+<p>Note that other analytics software overwrites your entire tag, our appending solution is the most considerate way to perform this tagging available to us presently.  </p>
                              
                                 </div><!--//section-block-->
                                 
@@ -195,10 +257,14 @@ title: Guide to UTM Tags - The OrderMetrics Profit Guide
                         <div id="doc-nav" class="doc-nav">
 	                        
 	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-	                                <a class="nav-link scrollto" href="#first-section">Understanding Attribution</a>
-	                                <a class="nav-link scrollto" href="#6-main">The Main 6 Attribution Models</a>                                
-	                                <a class="nav-link scrollto" href="#others-section">Other Attribution Models</a>	                               
-                                    <a class="nav-link scrollto" href="#position-section">We Recommend Position-Based</a>
+                                    <a class="nav-link scrollto" href="#intro-section">About UTM Tags</a>
+
+	                                <a class="nav-link scrollto" href="#5-types">The 5 UTM Tags</a>
+                                     <a class="nav-link scrollto" href="#watchout">Things To Watch Out For</a>                                
+
+	                                <a class="nav-link scrollto" href="#influencer">How To Track Influencer Marketing</a>                                
+	                                <a class="nav-link scrollto" href="#tricks">Tricks To Get The Most from UTM</a>	                               
+                                    <a class="nav-link scrollto" href="#ordermetrics-facebookutm">How OrderMetrics can autotag Facebook Ads</a>
                                  </nav><!--//doc-menu-->
 	                    </div>
                     </div><!--//doc-sidebar-->
