@@ -8,7 +8,7 @@ tags:
 
 For ecommerce stores looking to make the switch from platforms such as Magento or Woocommerce to Shopify, one of the most important things to take into consideration is Shopify's complex transaction fee structure. Additionally, for shops already on Shopify, it is crucial to understand your transaction fees and find ways to reduce these costs.
 
-This guide will walk you through Shopify's transaction fees for both Shopify Payments (Shopify's internal payment processing system) and external payment gateways such as PayPal, Braintree, or Authorize.net.
+This guide will walk you through Shopify's transaction fees for both Shopify Payments (Shopify's internal payment processing system) and external payment gateways such as PayPal, Braintree, or Authorize.net.  Also see our <a href="https://ordermetrics.com/profit-guide/reduce-payment-processing-fees/reduce-shopify-transaction-fees/">guide to reducing Shopify Fees in the Profit Guide</a>. 
 <h3>Understanding Shopify Payments</h3>
 Unlike many other ecommerce platforms, Shopify offers their own payment system to merchants located in the USA, Canada, UK, Ireland and Australia. For folks based in these countries, Shopify Payments offers a convenient solution with little to no approval process, allowing you to start accepting payments immediately. Payment processing fees for Shopify payments vary based on which <a href="https://www.shopify.com/pricing/?ref=developer-b7007c8d686ad62b" target="_blank" rel="noopener noreferrer">Shopify plan</a> you are on. Additionally, each eligible country has their own fee structure.
 
