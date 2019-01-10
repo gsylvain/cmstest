@@ -25,3 +25,5 @@ end
 
 # ignore typescripts
 ignore /(.*)\.ts/
+
+set :markdown, parse_block_html: true
