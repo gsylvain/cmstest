@@ -1,4 +1,4 @@
-<h2 class="section-title">Regularly reviewing shipping invoices could help correct costly mistakes</h2>
+<h2 class="section-title" id="intro">Regularly reviewing shipping invoices could help correct costly mistakes</h2>
 <div class="section-block">
 
 This year, businesses will spend upwards of $1.5 trillion on shipping, as  [reported by the Wall Street Journal](https://www.wsj.com/articles/companies-are-spending-more-on-shipping-and-thats-not-changing-soon-1529413500).  
@@ -9,7 +9,7 @@ For a company that brings in $1 million in revenue, that equates to $20,000 in s
 
 </div>
 <h2 class="section-title">Why auditing shipping invoices is important</h2>
-<div class="section-block">
+<div class="section-block" id="why-audit">
 
 Most e-commerce businesses rely on automated billing when it comes to shipping.  The assumption is that FedEx, UPS, or USPS is charging your business correctly every month, since your invoices are generated automatically.  However, automation still leaves room for mistakes.  Some common issues include:
 
@@ -31,7 +31,7 @@ The benefits of auditing your shipping invoices are simple:
 
 </div>
 <h2 class="section-title">Ways To Audit</h2>
-<div class="section-block">
+<div class="section-block" id="ways-to-audit">
 
 There are two primary ways you can approach your shipping bill audit – an internal audit or a third-party audit.
 
@@ -47,6 +47,10 @@ In a micro audit, you’ll go over each and every invoice with a fine toothcomb:
 * **Double check the totals:** This might seem silly, but make sure everything on the invoice adds up.  It’s possible that charges reflected correctly on a bill could still be totaled incorrectly.
 
 A micro audit might be your best bet to catch every single mistake, but it’s tedious, and not many businessowners have the time or resources to be this thorough.  A macro audit takes less time and still clues you in to big problems.
+
+</div>
+<h2 class="section-title">Macro Audit</h2>
+<div class="section-block" id="macro-audit">
 
 In a macro audit, you’re checking shipping costs on a monthly basis, but you’re taking a different approach.  Here, you’ll group each type of shipment together and compare the trends. 
 
@@ -71,6 +75,8 @@ If these audits seem boring or you can’t spare the resources to conduct them, 
 OrderMetrics can help with some of this auditing. If you have connected your shipping provider like Shippo or Shipstation to OrderMetrics, you can review your shipping costs per order as they are shipped.  Simply sort your orders by cost of shipping, or by shipping margin, and see the details of your most expensive orders to ship. 
 
 Be it a person or AI, you’ve got a fresh set of eyes from someone who knows what to look for and isn’t personally invested in your business.  And, you’ll have peace of mind that your audits are being handled with the utmost care.
+
+<div id="summary">
 
 ### Summary
 Being fiscally responsible isn’t just about budgeting or driving more revenue; it’s about going over expenditures in great detail.  
