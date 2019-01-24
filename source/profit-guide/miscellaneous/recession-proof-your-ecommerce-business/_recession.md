@@ -1,4 +1,4 @@
-<h2 class="section-title" id="intro">Recession-Proof Your E-Commerce Business - Tips for 2019
+<h2 class="section-title" id="intro">Recession-Proof Your E-Commerce Business - Tips for 2019</h2>
 <div class="section-block">
 
 Shifts in the economy are trying for any business. Even large corporations can be hit hard by a recession, and small businesses often struggle to maintain their performance as the economy constricts. Depending on the severity and duration of the recession, some businesses have trouble even keeping the doors open.
@@ -57,10 +57,10 @@ To maximize the scope of your marketing campaigns and ensure that your business 
 
 A few of the options available to your marketing team include:
 
-* Amazon PPC Advertising: Paid ads on Amazon appear mixed in with other search results and are currently one of the more cost-effective ways to advertise to a market as large and recession-secure as Amazon. Competition is heating up here though. 
-* Smarten Up Your Store: Incorporating artificial intelligence into your store for smarter cross-recommendations and sales-focused chatbots or personalized offers can really impress customers, creating a smooth shopping experience that keeps them coming back time and again
-* Micro Influencers: Big-name influencers may be out of your reach, but many marketers are having tremendous success with smaller-scale “micro” influencers that have hundreds or maybe a few thousand loyal followers
-* Video of the Future: Instead of relying on simple ads for YouTube or Facebook video, try marketing livestreams, Vlogs and other unique video content to increase brand awareness and take your advertising efforts viral
+* **Amazon PPC Advertising**: Paid ads on Amazon appear mixed in with other search results and are currently one of the more cost-effective ways to advertise to a market as large and recession-secure as Amazon. Competition is heating up here though. 
+* **Smarten Up Your Store:** Incorporating artificial intelligence into your store for smarter cross-recommendations and sales-focused chatbots or personalized offers can really impress customers, creating a smooth shopping experience that keeps them coming back time and again
+* **Micro Influencers:** Big-name influencers may be out of your reach, but many marketers are having tremendous success with smaller-scale “micro” influencers that have hundreds or maybe a few thousand loyal followers
+* **Video of the Future:** Instead of relying on simple ads for YouTube or Facebook video, try marketing livestreams, Vlogs and other unique video content to increase brand awareness and take your advertising efforts viral
 
 There are a number of other options available to you as well, of course. The important thing is to stay creative, and keep your E-commerce business ahead of online trends instead of following behind and copying what everyone else is doing. 
 
