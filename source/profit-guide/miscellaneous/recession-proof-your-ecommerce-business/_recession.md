@@ -1,5 +1,4 @@
-<h2 class="section-title" id="intro">Recession-Proof Your E-Commerce Business - Tips for 2019</h2>
-<div class="section-block">
+<div class="section-block" id="intro">
 
 Shifts in the economy are trying for any business. Even large corporations can be hit hard by a recession, and small businesses often struggle to maintain their performance as the economy constricts. Depending on the severity and duration of the recession, some businesses have trouble even keeping the doors open.
 
