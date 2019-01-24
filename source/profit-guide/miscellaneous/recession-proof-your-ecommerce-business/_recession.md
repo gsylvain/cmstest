@@ -2,8 +2,10 @@
 
 Shifts in the economy are trying for any business. Even large corporations can be hit hard by a recession, and small businesses often struggle to maintain their performance as the economy constricts. Depending on the severity and duration of the recession, some businesses have trouble even keeping the doors open.
 
-Given recent ups and downs in the stock market and other parts of the economy, it’s not a bad idea to prepare for a possible dip toward recession. What does that mean for E-commerce stores, though? 
-How do you prepare for a recession in a market that’s constantly evolving? Here are a few 2019 E-commerce marketing tips to help you weather even the worst economic storms.
+Given recent ups and downs in the stock market and other parts of the economy, it’s not a bad idea to prepare for a possible dip toward recession. What does that mean for e-commerce stores, though? 
+How do you prepare for a recession in a market that’s constantly evolving? 
+
+Here are a few 2019 e-commerce marketing ideas, to help you weather even the worst economic storms.
 
 </div>
 <h2 class="section-title">The Hidden Danger of Recession</h2>
@@ -22,7 +24,7 @@ The increase in competition during a recession can hit E-commerce companies espe
 <h2 class="section-title">Rising Social Costs</h2>
 <div class="section-block" id="rising-cost">
 
-In recent years, social media has been the place to be when it comes to advertising in the E-commerce landscape. With millions upon millions of users liking, sharing and commenting on social media, your ads and other marketing pushes seemed right at home in the middle of that digital frontier.
+In recent years, social media has been the place to be when it comes to advertising in the e-commerce landscape. With millions upon millions of users liking, sharing and commenting on social media, your ads and other marketing pushes seemed right at home in the middle of that digital frontier.
 
 The problem is that users are starting to migrate away from old standbys like Facebook in favor of new platforms. They’re also consuming media in different formats, putting less emphasis on the feed and sidebar areas that have traditionally served up the majority of ads. With a recession potentially driving online ad prices significantly higher, you need to be careful about dropping too much money on ads that an ever-increasing portion of your target audience might not even see.
 
