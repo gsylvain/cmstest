@@ -1,34 +1,32 @@
-<div class="container" style="padding-top: 50px">
+<div class="jumbotron hero hero--home" id="hero">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 d-lg-flex justify-content-lg-center flex-column hero__text js-hero-text">
+        <h1 class="display-4 text-center text-lg-left wow fadeInLeft"> Attribution by OrderMetrics</h1>
+        <h3 class="text-muted text-center text-lg-left  wow fadeInLeft" data-wow-delay=".25s">
+         See how all your marketing works together, including paid ads, email marketing, social media & organic. 
+        </br>
+      </br><a href="#videoModal" class="btn btn-outline mh-auto" data-target="#videoModal" data-toggle="modal"><i class="fas fa-play"></i>  Watch Video</a></h3>
+      </div>
+    </div>
+  </div>
 
-  <div class="row">
-       <div class="well">
-          <div class="row">
-              <div class="col-md-12" align="center">
-               <h1 class="display-4 text-center text-lg">Attribution by OrderMetrics</h1>
-                <!-- <h3>The only system to accurately...</h3> -->
-                <h2>We show you how all your marketing works together. Discover your top customer conversion paths, or profitability & LTV of every single marketing channel, ad campaign, and individual ads.  </h2>
-                <div class="col-md-9 col-md-offset-2">
-                <!-- <p class="lead">Two powerful reports -  analyze your customer conversion paths view the profitability & LTV of every single ad campaign, ad channel, and even individual ads.  </p> -->
-                </div>
-                <br>
-                <!-- <img style="" width="50%;" src="img/attribution2.png"> -->
-                <div class="row">
-                 <div class="col-md-">
-                 </div>
-
-                </div>
-                <a href="#videoModal" data-toggle="modal" data-target="#videoModal"><img style="" width="50%;" src="images/attribution/mainDashNew.png"></a>
-                 <br>
-                <a href="https://app.ordermetrics.io/begin" target="_blank"><button class="btn btn-lg btn-primary">Start 14-day free trial</button></a>
-              <!-- <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#videoModal">
-      Watch Video
-    </button> -->
-              <h6 class="text-muted" style="padding-top: 10px;">Attribution is included with the <a href="https://ordermetrics.com/" target="_blank">OrderMetrics dashboard</a></h6>
-              </div>
-          </div>
-        </div>
+  <div class="hero__illustration js-hero-illustration">
+    <img src="/images/hero-funnel-george.svg" alt="">
+  </div>
+</div>
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <iframe style="margin: 0 auto;" width="770" height="600" src="https://www.youtube.com/embed/jWFcGoGgnu4" frameborder="0" allowfullscreen></iframe>
+      </div>
 
     </div>
+  </div>
+</div>
+
 
 <%= partial 'components/attribution/why' %>
 <%= partial 'components/attribution/questions' %>
@@ -37,9 +35,9 @@
 
 
 
-    <div class="row" style="padding-top: 150px;">
+    <div class="row" style="padding-top: 110px;">
       <div class="col-md-12">
-        <h2 align="center">How it works - it's easy! </h2>
+        <h2 align="center">How it works</h2>
         <section class="cd-timeline js-cd-timeline">
     <div class="cd-timeline__container">
       <div class="cd-timeline__block js-cd-block">
@@ -173,7 +171,7 @@
        </div>
        <div style="height:150px;" class="col-md-6 well">
           <h4><b>What type of attribution model do you use?</b></h4>
-          <h6>a) It varies by report. At the core, we rely on Google Analytic's last touch attribution model. In our Top Customer Journeys we allow you to choose between Position Based, Last Click Non Direct, Linear & Time Decay. For more info, <a href="https://ordermetrics.com/profit-guide/optimizing-paid-marketing/understand-attribution/">read our guide to Attribution Models.</a></h6>
+          <h6>a) We currently rely on Google Analytic's last touch attribution model. In our Top Customer Journeys we allow you to choose between Position Based, Last Click Non Direct, Linear & Time Decay. For more info, <a href="https://ordermetrics.com/profit-guide/optimizing-paid-marketing/understand-attribution/">read our guide to Attribution Models.</a></h6>
        </div>
    </div>
 
