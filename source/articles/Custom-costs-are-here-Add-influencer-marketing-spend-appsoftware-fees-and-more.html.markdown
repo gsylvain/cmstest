@@ -9,6 +9,7 @@ You can now add custom costs for both one time and recurring expenses to be subt
 
 <strong>How?</strong> Head to <em>Data Warehouse -&gt; Custom Spends</em>. Create a new category, add a new spend, select a category, select a start &amp; end date, frequency, and amount. Then refresh the page. Thats it! You can easily edit these costs on this same page.
 
-*The custom cost feature is available on Legacy, Growth, and Advanced plans (but not our Lite plan)
+**The custom cost feature is available on Legacy, Growth, and Advanced plans (but not our Lite plan)
 
-We are excited to see how merchants end up using this versatile feature to keep track of their profitability.
+
+** We are excited to see how merchants end up using this versatile feature to keep track of their profitability.

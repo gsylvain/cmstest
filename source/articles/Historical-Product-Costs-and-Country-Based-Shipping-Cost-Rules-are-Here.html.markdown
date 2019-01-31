@@ -1,7 +1,6 @@
 ---
 title: Historical Product Costs and Country Based Shipping Cost Rules are Here
 date: '2017-10-11 04:41:55'
-tags: []
 ---
 
 We have 2 much anticipated product feature announcements for you! <a href="https://www.ordermetrics.io/">Order Metrics</a> is excited to announce the release of <strong>h</strong><strong>istorical product costs </strong>and c<strong>ountry based shipping cost rules by product</strong>

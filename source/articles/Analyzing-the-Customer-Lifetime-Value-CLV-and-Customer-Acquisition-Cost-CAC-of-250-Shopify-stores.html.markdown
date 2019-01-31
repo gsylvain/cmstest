@@ -1,8 +1,6 @@
 ---
 title: Analyzing the Customer Lifetime Value (CLV) and Customer Acquisition Cost (CAC) of 250 Shopify stores
 date: '2017-11-14 19:53:56'
-tags: []
-published: false
 ---
 
 Customer Lifetime Value (CLV) and Customer Acquisition Costs (CAC) are 2 very important metrics that can help you answer one very simply question for your ecommerce store:

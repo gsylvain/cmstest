@@ -1,7 +1,6 @@
 ---
-title: ShipStation vs ShippingEasy vs Shippo vs Shopify Shipping - Which provider should I choose?
+title: ShipStation vs ShippingEasy vs Shippo vs Shopify Shipping Which provider should I choose?
 date: '2017-03-23 20:57:13'
-
 ---
 
 The purpose of this guide is to help ecommerce merchants decide between the various shipping software applications that are used to print shipping labels and manage shipments. We will compare the 4 most popular shipping software vendors of 2017 to help you make the best choice. It is important to note that most of these providers claim to provide very similar functionality. However, the actual usability of their features vary greatly. We encourage you to test out one or two solutions for yourself and see which fits your business.

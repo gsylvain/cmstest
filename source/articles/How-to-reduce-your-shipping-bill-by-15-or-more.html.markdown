@@ -1,8 +1,6 @@
 ---
 title: How to reduce your shipping bill by 15% or more
 date: '2016-12-14 15:41:41'
-tags:
-- ordermetrics-io
 ---
 
 This exclusive guide for eCommerce stores provides tips to reduce shipping costs and maximize order profitability.
