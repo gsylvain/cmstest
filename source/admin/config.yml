@@ -4,20 +4,9 @@ backend:
   base_url: https://api.netlify.com
 
 collections:
-  - label: "Articles"
-    name: "articles"
-    folder: "source/articles"
-    extension: .html.markdown
-    format: frontmatter
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: blog
     label: Blog
-    folder: source/blog/
+    folder: source/blog
     extension: .html.md
     format: frontmatter
     create: true
