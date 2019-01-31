@@ -5,8 +5,8 @@ backend:
 
 collections:
   - name: blog
-    label: Blog
-    folder: source/blog
+    label: blog
+    folder: source/blog/
     extension: .html.md
     format: frontmatter
     create: true
