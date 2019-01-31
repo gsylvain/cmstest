@@ -1,0 +1,17 @@
+backend:
+  name: bitbucket
+  repo: gsylvain/cmstest # Path to your Bitbucket repository
+
+collections:
+  - label: "Blog"
+    name: "blog"
+    folder: "/blog"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+media_folder: "images" # Media files will be stored in the repo under images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images
