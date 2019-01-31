@@ -6,7 +6,7 @@ backend:
 collections:
   - label: "Articles"
     name: "articles"
-    folder: "articles"
+    folder: "source/articles"
     extension: .html.markdown
     format: frontmatter
     create: true
@@ -18,18 +18,18 @@ collections:
 
   - name: "blog"
     label: "Blog"
-    folder: "blog"
+    folder: "source/blog"
     extension: .html.md
     format: frontmatter
     create: true
     slug: '{{title}}'
     fields:
-      - {label: Title, name: title, widget: string, required: true}
-      - {label: Publish Date, name: date, widget: datetime}
-      - {label: Description, name: description, widget: string, required: false}
-      - {label: Image, name: image, widget: image, required: false}
-      - {label: Tags, name: tags, widget: list, required: false}
-      - {label: Body, name: body, widget: markdown}
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Image", name: image, widget: image, required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
 
 media_folder: "source/images" # Media files will be stored in the repo under images/uploads
