@@ -1,9 +1,6 @@
 ---
 title: Navigating Shopify's Complex Payment Processing Fee Structure
 date: '2017-03-07 20:10:29'
-tags:
-- ordermetrics-io
-- shopify-payments
 ---
 
 For ecommerce stores looking to make the switch from platforms such as Magento or Woocommerce to Shopify, one of the most important things to take into consideration is Shopify's complex transaction fee structure. Additionally, for shops already on Shopify, it is crucial to understand your transaction fees and find ways to reduce these costs.

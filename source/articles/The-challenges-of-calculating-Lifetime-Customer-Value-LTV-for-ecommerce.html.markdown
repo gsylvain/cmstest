@@ -1,8 +1,6 @@
 ---
 title: The challenges of calculating Lifetime Customer Value (LTV) for ecommerce
 date: '2018-06-06 00:44:10'
-tags: []
-published: false
 ---
 
 Knowing the Lifetime Value of your customers (LTV, also known as CLV) is one of the most powerful metrics for ecommerce companies to analyze on an ongoing basis. LTV lets you know how much you can spend on marketing while still remaining profitable. When LTV is used in conjunction with your company's Customer Acquisition Costs (CAC) metric, you are able to measure your overall profitability.

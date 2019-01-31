@@ -1,18 +1,6 @@
 ---
 title: 'Introducing: WooCommerce and OrderMetrics.io'
 date: '2018-03-26 23:40:26'
-tags:
-- amazon
-- ecommerce
-- facebook-ads
-- google-adwords
-- google-analytics
-- ordermetrics-io
-- ordermetrics-io
-- saas
-- shopify
-- woocommerce
-- woocommerce
 ---
 
 <span style="font-weight: 400;">We are very excited to introduce our integration with WooCommerce on <a href="http://www.ordermetrics.io">OrderMetrics.io</a> and continue improving our features and integrations to help more eCommerce companies sustain profitability in their business. </span>

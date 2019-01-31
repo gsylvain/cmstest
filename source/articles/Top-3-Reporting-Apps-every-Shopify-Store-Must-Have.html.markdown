@@ -1,7 +1,6 @@
 ---
 title: Top 3 Reporting Apps every Shopify Store Must Have
 date: '2017-01-01 17:50:07'
-tags: []
 ---
 
 <img class="alignnone wp-image-84 size-large" src="http://www.ordermetrics.io/wordpress/wp-content/uploads/2017/01/hpjsku2uysu-carlos-muza-1024x729.jpg" width="730" height="520" />

@@ -1,7 +1,6 @@
 ---
 title: 'Introducing: AliExpress and OrderMetrics.io'
 date: '2017-06-16 00:32:54'
-tags: []
 ---
 
 We are excited to announce our new integration with AliExpress which allows Shopify merchants who utilize dropshipping to automatically pull in <strong>product and shipping costs</strong> for each of their orders and import this data into <a href="http://www.ordermetrics.io" target="_blank" rel="noopener noreferrer">OrderMetrics.io</a>. This data is then combined with Shopify order data, Facebook Ads, Google Adwords, and transaction fees to show merchants a realtime view of their profitability. Additionally - for the first time ever - this integration helps merchants discover their most and least profitable Facebook Ad campaigns with little to no manual effort.
