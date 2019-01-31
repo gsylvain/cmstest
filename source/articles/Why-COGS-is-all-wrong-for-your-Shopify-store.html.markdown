@@ -1,8 +1,6 @@
 ---
 title: Why COGS is all wrong for your Shopify store
 date: '2016-12-14 22:02:57'
-tags:
-- ordermetrics-io
 ---
 
 <hr />

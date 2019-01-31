@@ -1,5 +1,5 @@
 ---
-title: Historical Product Costs and Country Based Shipping Cost Rules are Here!
+title: Historical Product Costs and Country Based Shipping Cost Rules are Here
 date: '2017-10-11 04:41:55'
 tags: []
 ---
