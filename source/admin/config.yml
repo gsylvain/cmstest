@@ -6,7 +6,7 @@ backend:
 collections:
   - label: "Articles"
     name: "articles"
-    folder: "source/articles"
+    folder: "articles"
     extension: .html.markdown
     format: frontmatter
     create: true
@@ -18,7 +18,7 @@ collections:
 
   - name: "blog"
     label: "Blog"
-    folder: "source/blog"
+    folder: "blog"
     extension: .html.md
     format: frontmatter
     create: true
