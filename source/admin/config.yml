@@ -5,7 +5,7 @@ backend:
 collections:
   - label: "Blog"
     name: "blog"
-    folder: "/blog"
+    folder: "source/blog"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -13,5 +13,5 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-media_folder: "images" # Media files will be stored in the repo under images/uploads
+media_folder: "source/images" # Media files will be stored in the repo under images/uploads
 public_folder: "/images" # The src attribute for uploaded media will begin with /images
