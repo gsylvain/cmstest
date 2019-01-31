@@ -7,8 +7,9 @@ collections:
   - label: "Blog"
     name: "blog"
     folder: "source/articles"
+    extension: .html.markdown
+    format: frontmatter
     create: true
-    extension: .html.md
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
