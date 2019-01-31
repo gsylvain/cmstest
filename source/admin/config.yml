@@ -14,8 +14,9 @@ collections:
     fields:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Publish Date, name: date, widget: datetime}
-      - {label: Description, name: description, widget: string}
-      - {label: Image, name: image, widget: image}
+      - {label: Description, name: description, widget: string, required: false}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Tags, name: tags, widget: list, required: false}
       - {label: Body, name: body, widget: markdown}
 
 media_folder: "source/images" # Media files will be stored in the repo under images/uploads
