@@ -3,10 +3,9 @@ backend:
   repo: gsylvain/cmstest # Path to your Bitbucket repository
   base_url: https://api.netlify.com
 
-collections:
   - name: blog
-    label: blog
-    folder: source/blog/
+    label: Blog
+    folder: "source/blog"
     extension: .html.md
     format: frontmatter
     create: true
@@ -18,6 +17,7 @@ collections:
       - {label: Image, name: image, widget: image, required: false}
       - {label: Tags, name: tags, widget: list, required: false}
       - {label: Body, name: body, widget: markdown}
+
 
 media_folder: "source/images" # Media files will be stored in the repo under images/uploads
 public_folder: "/images" # The src attribute for uploaded media will begin with /images
