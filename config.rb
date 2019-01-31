@@ -7,6 +7,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/profit-guide/*", :layout => "profit-layout"
 page "/articles/*", :layout => "articles"
+page "/blog/*", :layout => "articles"
 
 
 
