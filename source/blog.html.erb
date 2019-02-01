@@ -1,0 +1,33 @@
+---
+title: Blog Index
+date: 
+---
+
+
+ <div class="container">
+     <div class="row" style="margin-top: 3em">
+      <div class="col col-md-8 offset-2">
+      	<h1 class="text-center display-4">Latest blog posts</h1>
+
+
+<% blog.articles[0...5].each do |article| %>
+ 
+    <div class="row" style="margin-top: 3em">
+	<article>
+    <h2>
+      <a href="<%= article.url %>"><%= article.title %></a>  </h2>
+     <p> <%= article.date.strftime('%b %e %Y') %></p>
+ 
+
+    <%= article.summary %>
+
+    <a href="<%= article.url %>">Read more</a>
+</div>
+<br/>
+
+  </article>
+<% end %>
+
+</div>
+</div>
+</div>

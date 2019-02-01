@@ -6,3 +6,5 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'therubyracer'
 gem 'less'
 gem 'typescript-node'
+gem 'nokogiri'
+gem "middleman-blog", "~> 4.0"
