@@ -32,4 +32,5 @@ set :markdown, parse_block_html: true
 activate :blog do |blog|
   blog.sources = "blog/{title}.html"
   blog.layout = "articles"
-end
+  blog.permalink = "blog/{title}.html"
+end	
