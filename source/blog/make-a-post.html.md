@@ -7,6 +7,4 @@ tags:
 ---
 # Just a guy trying to make a blog post over here
 
-
-
 ![](/images/runaway-success.png)
