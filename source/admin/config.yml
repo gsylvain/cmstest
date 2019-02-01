@@ -5,7 +5,7 @@ backend:
 
 collections:
   - name: "blog"
-    label: "The New Blog"
+    label: "OrderMetrics Blog Posts"
     folder: "source/blog"
     extension: .html.md
     format: frontmatter
