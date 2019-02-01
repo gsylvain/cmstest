@@ -15,7 +15,8 @@
   <body>
      <%= partial 'components/header' %>
       <div class="container">
-        <div class="col-md-10 col-12 order-1">
+      <div class="row" style="margin-top: 3em">
+      <div class="col col-12 text-center">
          <h1><%= current_page.data.title %></h1>
           <%= yield %>
         </div>

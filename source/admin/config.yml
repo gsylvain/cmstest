@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: gsylvain/cmstest # Path to your Bitbucket repository
+  repo: gsylvain/cmstest # Path to your Github repository
   base_url: https://api.netlify.com
 
 collections:
