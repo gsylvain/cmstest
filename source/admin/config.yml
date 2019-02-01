@@ -1,6 +1,5 @@
 backend:
-  name: bitbucket
-  repo: gsylvain/cmstest # Path to your Bitbucket repository
+  name: git-gateway
   base_url: https://api.netlify.com
 
 collections:
