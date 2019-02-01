@@ -1,5 +1,5 @@
 ---
-title: Navigating Shopify's Complex Payment Processing Fee Structure
+title: Navigating Shopifys Complex Payment Processing Fee Structure
 date: '2017-03-07 20:10:29'
 ---
 
