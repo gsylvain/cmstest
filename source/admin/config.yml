@@ -4,18 +4,6 @@ backend:
   base_url: https://api.netlify.com
 
 collections:
-  - label: "Old Wordpress Articles"
-    name: "Articles"
-    folder: "source/articles"
-    extension: .html.markdown
-    format: frontmatter
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "blog"
     label: "The New Blog"
     folder: "source/blog"
